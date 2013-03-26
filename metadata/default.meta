@@ -1,0 +1,35 @@
+######################################################
+#
+# Splunk for Cisco IOS
+#
+#
+# Copyright (C) 2013 Mikael Bjerkeland
+# All Rights Reserved
+#
+######################################################
+
+[]
+access = read : [ * ], write : [ admin, power ]
+export = system
+
+[eventtypes]
+export = system
+
+[props]
+export = system
+
+[transforms]
+export = system
+
+[macros]
+export = system
+
+[tags]
+export = system
+
+[eventtypes]
+export = system
+
+[viewstates]
+access = read : [ * ], write : [ * ]
+export = system
