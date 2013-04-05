@@ -23,6 +23,7 @@ Features:
 ++ Application Details
 
 Sourcetype(s):            cisco:ios
+Indexes:		  ios
 Supported Technologies:   Cisco IOS, IOS-XE and NX-OS devices, VSG
 
 
