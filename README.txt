@@ -1,8 +1,8 @@
 Copyright (C) 2013 Mikael Bjerkeland, Datametrix AS. All Rights Reserved.
 
 App:                    Cisco IOS Technology Add-On
-Current Version:        1.0.0
-Last Modified:          2013-03-19
+Current Version:        1.0.1
+Last Modified:          2013-04-23
 Splunk Version:         4.2.x, 4.3.x, 5.0.x
 Author:                 Mikael Bjerkeland
 
@@ -15,6 +15,10 @@ Please contact me on Splunk Base if there is anything you would like to see in t
 
 
 ++ What's New
+
++++ 1.0.1 (2013-04-23)
+Bug fixes:
+* Fixed extraction of mnemonic and facility with integers in it
 
 +++ 1.0.0 (2013-03-19)
 Features:
