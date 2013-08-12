@@ -1,8 +1,8 @@
 Copyright (C) 2013 Mikael Bjerkeland, Datametrix AS. All Rights Reserved.
 
 App:                    Cisco IOS Technology Add-On
-Current Version:        1.0.2
-Last Modified:          2013-06-07
+Current Version:        1.0.3
+Last Modified:          2013-08-12
 Splunk Version:         4.2.x, 4.3.x, 5.0.x
 Author:                 Mikael Bjerkeland
 
@@ -15,6 +15,9 @@ Please contact me on Splunk Base if there is anything you would like to see in t
 
 
 ++ What's New
+
++++ 1.0.3 (2013-08-12)
+Bug fixes: Don't capture ACS events, be stricter on capturing
 
 +++ 1.0.2 (2013-06-07)
 Bug fixes:
