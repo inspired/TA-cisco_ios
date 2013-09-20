@@ -1,8 +1,8 @@
 Copyright (C) 2013 Mikael Bjerkeland, Datametrix AS. All Rights Reserved.
 
 App:                    Cisco IOS Technology Add-On
-Current Version:        1.0.3
-Last Modified:          2013-08-12
+Current Version:        1.0.4
+Last Modified:          2013-09-20
 Splunk Version:         4.2.x, 4.3.x, 5.0.x
 Author:                 Mikael Bjerkeland
 
@@ -15,6 +15,9 @@ Please contact me on Splunk Base if there is anything you would like to see in t
 
 
 ++ What's New
+
++++ 1.0.4 (2013-09-20)
+Features: IOS XR support
 
 +++ 1.0.3 (2013-08-12)
 Bug fixes: Don't capture ACS events, be stricter on capturing
@@ -35,7 +38,7 @@ Features:
 
 Sourcetype(s):            cisco:ios
 Indexes:		  ios
-Supported Technologies:   Cisco IOS, IOS-XE and NX-OS devices
+Supported Technologies:   Cisco IOS, IOS-XE, NX-OS, IOS XR devices
 
 
 ++ Installation Instructions
