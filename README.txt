@@ -1,13 +1,13 @@
 Copyright (C) 2013 Mikael Bjerkeland, Datametrix AS. All Rights Reserved.
 
 App:                    Cisco IOS Technology Add-On
-Current Version:        1.0.4
-Last Modified:          2013-09-20
-Splunk Version:         4.2.x, 4.3.x, 5.0.x
+Current Version:        1.2.0
+Last Modified:          2014-01-09
+Splunk Version:         4.2.x, 4.3.x, 5.0.x, 6.x
 Author:                 Mikael Bjerkeland
 
 The Cisco IOS Technology Add-On (TA) sets the correct sourcetype used for identifying data from Cisco IOS, IOS-XE, NX-OS, XR
-Install this TA on your indexer. Install the "Cisco IOS" app on your search head
+Install this TA on your search head and indexer. Install the "Cisco IOS" app on your search head
 
 This TA defines an index "ios" which is referenced by the Cisco IOS App. Make sure your Splunk user searches this index by default.
 
@@ -15,6 +15,9 @@ Please contact me on Splunk Base if there is anything you would like to see in t
 
 
 ++ What's New
+
++++ 1.2.0 (2014-01-09)
+Features: Added props, transforms, tags to this app for CIM compliance
 
 +++ 1.0.4 (2013-09-20)
 Features: IOS XR support
@@ -44,7 +47,7 @@ Supported Technologies:   Cisco IOS, IOS-XE, NX-OS, IOS XR devices
 ++ Installation Instructions
 
 The Cisco IOS TA can be downloaded, installed, and configured to receive Cisco IOS data by either using the Splunk app setup screen or by manually installing and configuring the app.
-This app does not add any new inputs, it merely rewrites syslog events matching the IOS format. You need to already have IOS events coming in as the syslog sourcetype
+This app does not add any new inputs, it merely rewrites syslog events matching the IOS format. You need to already have IOS events coming in as the syslog sourcetype OR as index=ios and sourcetype=cisco:ios
 
 +++ Setup and configuration
 
