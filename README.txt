@@ -55,9 +55,7 @@ This app does not add any new inputs, it merely rewrites syslog events matching 
 
 1. Install in $SPLUNK_HOME/etc/apps/TA-cisco_ios
 
-2. Make sure your Cisco devices by default log to one of the following sourcetypes:
-* cisco:ios
-* syslog (A regex match will be performed to rewrite the events to the cisco:ios sourcetype)
+2. Make sure your Cisco devices by default log to one of the following sourcetypes: cisco:ios OR syslog (A regex match will be performed to rewrite the events to the cisco:ios sourcetype)
 
 3. Restart Splunk
 
