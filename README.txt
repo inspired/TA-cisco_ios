@@ -49,7 +49,7 @@ Supported Technologies:   Cisco IOS, IOS-XE, NX-OS, IOS XR devices
 ++ Installation Instructions
 
 The Cisco IOS TA can be downloaded, installed, and configured to receive Cisco IOS data by either using the Splunk app setup screen or by manually installing and configuring the app.
-This app does not add any new inputs, it merely rewrites syslog events matching the IOS format. You need to already have IOS events coming in as the syslog sourcetype OR as index=ios and sourcetype=cisco:ios
+This app does not add any new inputs, it merely rewrites syslog events matching the IOS format. You need to already have IOS events coming in as the syslog OR cisco:ios sourcetype.
 
 +++ Setup and configuration
 
