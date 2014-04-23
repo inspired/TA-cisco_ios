@@ -6,7 +6,7 @@ Last Modified:          2014-04-23
 Splunk Version:         5.0.x, 6.x
 Author:                 Mikael Bjerkeland
 
-The Cisco IOS Technology Add-On (TA) sets the correct sourcetype used for identifying data from Cisco IOS, IOS-XE, NX-OS, XR
+The Cisco IOS Technology Add-On (TA) sets the correct sourcetype and fields used for identifying data from Cisco IOS, IOS XE, IOS XR, NX-OS devices
 Install this TA on your search head and indexer. Install the "Cisco IOS" app on your search head.
 
 Please contact me on Splunk Base if there is anything you would like to see in this app.
