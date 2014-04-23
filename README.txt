@@ -1,8 +1,8 @@
 Copyright (C) 2013 Mikael Bjerkeland, Datametrix AS. All Rights Reserved.
 
 App:                    Cisco IOS Technology Add-On
-Current Version:        1.2.1
-Last Modified:          2014-02-17
+Current Version:        1.2.2
+Last Modified:          2014-04-23
 Splunk Version:         5.0.x, 6.x
 Author:                 Mikael Bjerkeland
 
@@ -13,6 +13,26 @@ Please contact me on Splunk Base if there is anything you would like to see in t
 
 
 ++ What's New
+
++++ 1.2.2 (2014-04-23)
+Features:
+* 16 new extractions:
+extract_cisco_ios-ILPOWER-3-CONTROLLER_PORT_ERR
+extract_cisco_ios-SYS-CPUHOG
+extract_cisco_ios-SYS-CPUHOG-2
+extract_cisco_ios-LDP-5-SP
+extract_cisco_ios-DHCP-6-ADDRESS_ASSIGN
+extract_cisco_ios-CLEAR-5-COUNTERS
+extract_cisco_ios-OSPF-4-ERRRCV
+extract_cisco_ios-CERM-4-RX_TX_BW_LIMIT
+extract_cisco_ios-SYS-5-PRIV_I
+extract_cisco_ios-UDLD-4-UDLD_PORT_DISABLED
+extract_cisco_ios-AUTHMGR-5-SECURITY_VIOLATION
+extract_cisco_ios-TRACKING-5-STATE
+extract_cisco_ios-RTT-6-SAATHRESHOLD
+extract_cisco_ios-EC-5-L3DONTBNDL
+extract_cisco_ios-EC-5-PORTDOWN
+extract_cisco_ios-EC-5-STAYDOWN
 
 +++ 1.2.1 (2014-02-17)
 Features: 
