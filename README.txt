@@ -1,4 +1,4 @@
-Copyright (C) 2013 Mikael Bjerkeland, Datametrix AS. All Rights Reserved.
+Copyright (C) 2013 Mikael Bjerkeland. All Rights Reserved.
 
 App:                    Cisco IOS Technology Add-On
 Current Version:        1.2.2
@@ -7,6 +7,7 @@ Splunk Version:         5.0.x, 6.x
 Author:                 Mikael Bjerkeland
 
 The Cisco IOS Technology Add-On (TA) sets the correct sourcetype and fields used for identifying data from Cisco IOS, IOS XE, IOS XR, NX-OS devices
+
 Install this TA on your search head and indexers/heavy forwarders. Install the "Cisco IOS" app on your search head.
 
 Please contact me on Splunk Base if there is anything you would like to see in this app.
