@@ -18,10 +18,11 @@ Please contact me on Splunk Base if there is anything you would like to see in t
 +++ 1.3.0 (2014-04-30)
 Features:
 * Added lookup file for Cisco System Messages for the following devices:
-Nexus 7000, MDS 9000
-Catalyst 2960, 3750 etc
-Catalyst 4500
-Catalyst 6500
+	- Nexus 7000, MDS 9000
+	- Catalyst 2960, 3750 etc
+	- Catalyst 4500
+	- Catalyst 6500
+	- WLC 5500
 
 There are duplicates. I will review them at a later time
 
