@@ -1,8 +1,8 @@
 Copyright (C) 2013 Mikael Bjerkeland. All Rights Reserved.
 
 App:                    Cisco IOS Technology Add-On
-Current Version:        1.2.2
-Last Modified:          2014-04-23
+Current Version:        1.3.0
+Last Modified:          2014-04-30
 Splunk Version:         5.0.x, 6.x
 Author:                 Mikael Bjerkeland
 
@@ -14,6 +14,16 @@ Please contact me on Splunk Base if there is anything you would like to see in t
 
 
 ++ What's New
+
++++ 1.3.0 (2014-04-30)
+Features:
+* Added lookup file for Cisco System Messages for the following devices:
+Nexus 7000, MDS 9000
+Catalyst 2960, 3750 etc
+Catalyst 4500
+Catalyst 6500
+
+There are duplicates. I will review them at a later time
 
 +++ 1.2.2 (2014-04-23)
 Features:
