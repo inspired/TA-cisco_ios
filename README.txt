@@ -24,6 +24,9 @@ Features:
 	- Catalyst 6500
 	- WLC 5500
 
+Make this a dashboard:
+sourcetype=cisco:ios | stats count by facility severity_id mnemonic | lookup cisco_ios_messages facility mnemonic OUTPUT vendor_explanation vendor_recommended_action | sort severity_id, -count | table severity_id count facility mnemonic vendor_explanation vendor_recommended_action
+
 There are duplicates. I will review them at a later time
 
 +++ 1.2.2 (2014-04-23)
