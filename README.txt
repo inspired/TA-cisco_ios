@@ -1,8 +1,8 @@
 Copyright (C) 2013 Mikael Bjerkeland. All Rights Reserved.
 
 App:                    Cisco IOS Technology Add-On
-Current Version:        1.5.0
-Last Modified:          2014-05-08
+Current Version:        1.5.1
+Last Modified:          2014-05-09
 Splunk Version:         5.0.x, 6.x
 Author:                 Mikael Bjerkeland
 
@@ -14,6 +14,10 @@ Please contact me on Splunk Base if there is anything you would like to see in t
 
 
 ++ What's New
+
++++ 1.5.1 (2014-05-09)
+Bug fixes:
+* The transform and field extraction now also works for WLC 8500!
 
 +++ 1.5.0 (2014-05-08)
 Features:
