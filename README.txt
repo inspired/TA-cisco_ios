@@ -85,7 +85,7 @@ Features:
 
 ++ Application Details
 
-Sourcetype(s):            cisco:ios
+Sourcetype(s):            cisco:ios, Cisco:SmartCallHome
 Supported Technologies:   Cisco IOS, IOS-XE, NX-OS, IOS XR devices
 
 
@@ -100,7 +100,27 @@ This app does not add any new inputs, it merely rewrites syslog events matching 
 
 2. Make sure your Cisco devices by default log to one of the following sourcetypes: cisco:ios OR syslog (A regex match will be performed to rewrite the events to the cisco:ios sourcetype)
 
-3. Restart Splunk
+3. (OPTIONAL for Smart Call Home support)
+
+3.1. OPTIONAL - Add a new TCP data input on a port of your choice, set sourcetype to Cisco:SmartCallHome
+
+3.2. OPTIONAL - On your Cisco devices:
+--
+service call-home
+call-home
+ contact-email-addr YOUR.EMAIL@ADDR.ESS
+ site-id "YOUR_SITE_NAME"
+ profile "Splunk"
+  destination transport-method http
+  destination address http http://SPLUNK.SERVER.IP:TCP_PORT_FROM_3.1
+  subscribe-to-alert-group diagnostic severity debug 
+  subscribe-to-alert-group environment severity debug 
+  subscribe-to-alert-group inventory
+  subscribe-to-alert-group syslog severity debug pattern ".*"
+  subscribe-to-alert-group inventory periodic daily 22:30
+--
+
+4. Restart Splunk
 
 
 ++ TODO
