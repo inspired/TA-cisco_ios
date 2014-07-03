@@ -120,7 +120,6 @@ call-home
   subscribe-to-alert-group diagnostic severity debug 
   subscribe-to-alert-group environment severity debug 
   subscribe-to-alert-group inventory
-  subscribe-to-alert-group syslog severity debug pattern ".*"
   subscribe-to-alert-group inventory periodic daily 22:30
 --
 
