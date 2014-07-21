@@ -99,7 +99,7 @@ Features:
 
 ++ Application Details
 
-Sourcetype(s):            cisco:ios, Cisco:SmartCallHome
+Sourcetype(s):            cisco:ios, Cisco:SmartCallHome  
 Supported Technologies:   Cisco IOS, IOS-XE, NX-OS, IOS XR devices
 
 
