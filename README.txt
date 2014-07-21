@@ -11,7 +11,7 @@ The Cisco IOS Technology Add-On (TA) sets the correct sourcetype and fields used
 Install this TA on your search head and indexers/heavy forwarders. Install the "Cisco IOS" app on your search head.
 
 Supported data inputs:
-* Syslog
+* Syslog  
 * Smart Call Home (HTTP XML)
 
 Please contact me on Splunk Base if there is anything you would like to see in this app.
