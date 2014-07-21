@@ -119,7 +119,7 @@ This app does not add any new inputs, it merely rewrites syslog events matching 
 3.1. OPTIONAL - Add a new TCP data input on a port of your choice, set sourcetype to Cisco:SmartCallHome
 
 3.2. OPTIONAL - On your Cisco devices:
---
+-- 
 service call-home 
 call-home 
  contact-email-addr YOUR.EMAIL@ADDR.ESS 
