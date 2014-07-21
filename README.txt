@@ -1,8 +1,8 @@
 Copyright (C) 2013 Mikael Bjerkeland. All Rights Reserved.
 
 App:                    Cisco IOS Technology Add-On
-Current Version:        1.5.2
-Last Modified:          2014-05-19
+Current Version:        1.6.0
+Last Modified:          2014-07-21
 Splunk Version:         5.0.x, 6.x
 Author:                 Mikael Bjerkeland
 
@@ -18,6 +18,16 @@ Please contact me on Splunk Base if there is anything you would like to see in t
 
 
 ++ What's New
+
++++ 1.6.0 (2014-07-21)
+Features:
+* Lots of new extractions
+* Nexus ACL extractions
+* IOS Firewall extracts. Thanks Patrick Preuss!
+* Cisco IOS XE extraction fix for 4451. Thanks
+
+Bug fixes:
+* Cisco IOS Messages CSV file moved from this app to the Cisco IOS app.
 
 +++ 1.5.2 (2014-05-19)
 Features:
