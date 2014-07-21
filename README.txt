@@ -120,17 +120,17 @@ This app does not add any new inputs, it merely rewrites syslog events matching 
 
 3.2. OPTIONAL - On your Cisco devices:
 --
-service call-home
-call-home
- contact-email-addr YOUR.EMAIL@ADDR.ESS
- site-id "YOUR_SITE_NAME"
- profile "Splunk"
-  destination transport-method http
-  destination address http http://SPLUNK.SERVER.IP:TCP_PORT_FROM_3.1
+service call-home 
+call-home 
+ contact-email-addr YOUR.EMAIL@ADDR.ESS 
+ site-id "YOUR_SITE_NAME" 
+ profile "Splunk" 
+  destination transport-method http 
+  destination address http http://SPLUNK.SERVER.IP:TCP_PORT_FROM_3.1 
   subscribe-to-alert-group diagnostic severity debug 
   subscribe-to-alert-group environment severity debug 
-  subscribe-to-alert-group inventory
-  subscribe-to-alert-group inventory periodic daily 22:30
+  subscribe-to-alert-group inventory 
+  subscribe-to-alert-group inventory periodic daily 22:30 
 --
 
 4. Restart Splunk
