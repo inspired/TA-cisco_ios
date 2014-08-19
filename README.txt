@@ -138,6 +138,7 @@ call-home
 
 ++ TODO
 * Add SNMP listener (http://x123.net/howto-cisco-mibs-ubuntu.html)
+* In transforms.conf: NEED TO ADD extract_cisco_ios-general-wlc (8500) and remove the # extraction above. Because time ends up in reported_hostname
 
 ++ Troubleshooting the app
 
