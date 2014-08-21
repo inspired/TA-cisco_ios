@@ -1,8 +1,8 @@
 Copyright (C) 2013 Mikael Bjerkeland. All Rights Reserved.
 
 App:                    Cisco IOS Technology Add-On
-Current Version:        1.6.0
-Last Modified:          2014-07-21
+Current Version:        1.6.1
+Last Modified:          2014-08-21
 Splunk Version:         5.0.x, 6.x
 Author:                 Mikael Bjerkeland
 
@@ -18,6 +18,10 @@ Please contact me on Splunk Base if there is anything you would like to see in t
 
 
 ++ What's New
+
++++ 1.6.1 (2014-08-21)
+Bug fixes:
+* IPNAT extraction fixed. Thanks Emmaus Smith!
 
 +++ 1.6.0 (2014-07-21)
 Features:
