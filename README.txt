@@ -1,8 +1,8 @@
 Copyright (C) 2013 Mikael Bjerkeland. All Rights Reserved.
 
 App:                    Cisco IOS Technology Add-On
-Current Version:        1.6.1
-Last Modified:          2014-08-21
+Current Version:        2.0.0
+Last Modified:          2014-09-19
 Splunk Version:         5.0.x, 6.x
 Author:                 Mikael Bjerkeland
 
@@ -18,6 +18,10 @@ Please contact me on Splunk Base if there is anything you would like to see in t
 
 
 ++ What's New
+
++++ 2.0.0 (2014-09-19)
+Features:
+* CIM compliance
 
 +++ 1.6.1 (2014-08-21)
 Bug fixes:
