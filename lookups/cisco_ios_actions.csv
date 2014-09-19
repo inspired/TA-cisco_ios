@@ -1,3 +1,8 @@
 vendor_action,action
 permitted,allowed
 denied,blocked
+Start,allowed
+Stop,allowed
+Dropping,dropped
+Created,allowed
+Deleted,allowed
