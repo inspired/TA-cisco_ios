@@ -1,2 +1,2 @@
-sourcetype,vendor
-cisco:ios,cisco
+sourcetype,vendor,product
+cisco:ios,Cisco,IOS
