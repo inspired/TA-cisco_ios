@@ -147,10 +147,8 @@ call-home
 ++ TODO
 * In transforms.conf: NEED TO ADD extract_cisco_ios-general-wlc (8500) and remove the # extraction above. Because time ends up in reported_hostname
 
-++ Troubleshooting the app
-
-
 ++ Getting Help
 
+* Consult Splunk Answers
 * Contact the author: mikael@bjerkeland.com
 
