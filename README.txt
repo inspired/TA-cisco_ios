@@ -1,8 +1,8 @@
 Copyright (C) 2013 Mikael Bjerkeland. All Rights Reserved.
 
 App:                    Cisco IOS Technology Add-On
-Current Version:        2.0.0
-Last Modified:          2014-09-19
+Current Version:        2.1.0
+Last Modified:          2014-11-10
 Splunk Version:         5.0.x, 6.x
 Author:                 Mikael Bjerkeland
 
@@ -18,6 +18,10 @@ Please contact me on Splunk Base if there is anything you would like to see in t
 
 
 ++ What's New
+
++++ 2.1.0 (2014-10-11)
+Features:
+* RFC5424 support (untested). Rewrites sourcetype rfc5424_syslog to cisco:ios if it matches. Also extracts fields
 
 +++ 2.0.0 (2014-09-19)
 Features:
