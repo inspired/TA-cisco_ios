@@ -19,7 +19,7 @@ Please contact me on Splunk Base if there is anything you would like to see in t
 
 ++ What's New
 
-+++ 2.1.0 (2014-10-11)
++++ 2.1.0 (2014-11-10)
 Features:
 * RFC5424 support (untested). Rewrites sourcetype rfc5424_syslog to cisco:ios if it matches. Also extracts fields
 
