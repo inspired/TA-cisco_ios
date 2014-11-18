@@ -1,14 +1,14 @@
-Copyright (C) 2013 Mikael Bjerkeland. All Rights Reserved.
+Copyright (C) 2013-2014 Mikael Bjerkeland. All Rights Reserved.
 
-App:                    Cisco IOS Technology Add-On
+App:                    Cisco Networks Add-On (formerly known as Cisco IOS Technology Add-On)
 Current Version:        2.1.0
 Last Modified:          2014-11-10
 Splunk Version:         5.0.x, 6.x
 Author:                 Mikael Bjerkeland
 
-The Cisco IOS Technology Add-On (TA) sets the correct sourcetype and fields used for identifying data from Cisco IOS, IOS XE, IOS XR, NX-OS devices
+The Cisco Networks Add-On (TA) sets the correct sourcetype and fields used for identifying data from Cisco IOS, IOS XE, IOS XR, NX-OS devices
 
-Install this TA on your search head and indexers/heavy forwarders. Install the "Cisco IOS" app on your search head.
+Install this TA on your search head and indexers/heavy forwarders. Install the "Cisco Networks" app on your search head.
 
 Supported data inputs:
 *  Syslog  
@@ -21,6 +21,7 @@ Please contact me on Splunk Base if there is anything you would like to see in t
 
 +++ 2.1.0 (2014-11-10)
 Features:
+* NAME CHANGED to Cisco Networks Add-On. Remove your old TA-cisco_ios folder after upgrading.
 * RFC5424 support (untested). Rewrites sourcetype rfc5424_syslog to cisco:ios if it matches. Also extracts fields
 
 +++ 2.0.0 (2014-09-19)
