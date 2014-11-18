@@ -6,7 +6,7 @@ Last Modified:          2014-11-10
 Splunk Version:         5.0.x, 6.x
 Author:                 Mikael Bjerkeland
 
-The Cisco Networks Add-On (TA) sets the correct sourcetype and fields used for identifying data from Cisco IOS, IOS XE, IOS XR, NX-OS devices
+The Cisco Networks Add-On (TA) sets the correct sourcetype and fields used for identifying data from Cisco IOS, IOS XE, IOS XR, NX-OS devices using Splunk® Enterprise.
 
 Install this TA on your search head and indexers/heavy forwarders. Install the "Cisco Networks" app on your search head.
 
