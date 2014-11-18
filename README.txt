@@ -1,6 +1,6 @@
 Copyright (C) 2013-2014 Mikael Bjerkeland. All Rights Reserved.
 
-App:                    Cisco Networks Add-On (formerly known as Cisco IOS Technology Add-On)
+App:                    Cisco Networks Add-on (formerly known as Cisco IOS Technology Add-On)
 Current Version:        2.1.0
 Last Modified:          2014-11-10
 Splunk Version:         5.0.x, 6.x
@@ -21,7 +21,7 @@ Please contact me on Splunk Base if there is anything you would like to see in t
 
 +++ 2.1.0 (2014-11-10)
 Features:
-* NAME CHANGED to Cisco Networks Add-On. Remove your old TA-cisco_ios folder after upgrading.
+* NAME CHANGED to Cisco Networks Add-on. Remove your old TA-cisco_ios folder after upgrading.
 * RFC5424 support (untested). Rewrites sourcetype rfc5424_syslog to cisco:ios if it matches. Also extracts fields
 
 +++ 2.0.0 (2014-09-19)
