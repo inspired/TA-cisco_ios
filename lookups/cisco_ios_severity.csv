@@ -1,9 +1,9 @@
-severity_id,severity,severity_name,severity_description
-0,critical,emergency,System unusable
-1,critical,alert,Immediate action needed
-2,critical,critical,Critical condition
-3,high,error,Error condition
-4,medium,warning,Warning condition
-5,low,notification,Normal but significant condition
-6,informational,informational,Informational message only
-7,informational,debugging,Appears during debugging only
+severity_id,severity,severity_name,severity_id_and_name,severity_description
+0,critical,emergency,0 - emergency,System unusable
+1,critical,alert,1 - alert,Immediate action needed
+2,critical,critical,2 - critical,Critical condition
+3,high,error,3 - error,Error condition
+4,medium,warning,4 - warning,Warning condition
+5,low,notification,5 - notification,Normal but significant condition
+6,informational,informational,6 - informational,Informational message only
+7,informational,debugging,7 - debugging,Appears during debugging only
