@@ -14,8 +14,7 @@ Supported data inputs:
 *  Syslog  
 *  Smart Call Home (HTTP XML)
 
-Please contact me on Splunk Base if there is anything you would like to see in this app.
-
+Please post a question on Splunk Answers and tag it with "Cisco Networks Add-on" if there is anything you would like to see in this app.
 
 ++ What's New
 
