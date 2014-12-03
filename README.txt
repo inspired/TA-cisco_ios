@@ -8,7 +8,7 @@ Author:                 Mikael Bjerkeland
 
 The Cisco Networks Add-on (TA-cisco_ios) sets the correct sourcetype and fields used for identifying data from Cisco IOS, IOS XE, IOS XR, NX-OS devices using Splunk® Enterprise.
 
-Install this Add-On on your search head and indexers/heavy forwarders. Install the Cisco Networks (cisco_ios) App on your search head.
+Install this Add-on on your search head and indexers/heavy forwarders. Install the Cisco Networks (cisco_ios) App on your search head.
 
 Supported data inputs:
 *  Syslog  
@@ -112,12 +112,12 @@ Features:
 ++ Application Details
 
 Sourcetype(s):            cisco:ios, Cisco:SmartCallHome  
-Supported Technologies:   Cisco IOS, IOS-XE, NX-OS, IOS XR devices
+Supported Technologies: Cisco IOS, IOS-XE, NX-OS, IOS XR, WLC devices
 
 
 ++ Installation Instructions
 
-The Cisco IOS TA can be downloaded, installed, and configured to receive Cisco IOS data by either using the Splunk app setup screen or by manually installing and configuring the app.
+The Cisco Networks Add-on can be downloaded, installed, and configured to receive Cisco IOS and WLC data by either using the Splunk app setup screen or by manually installing and configuring the app.
 This app does not add any new inputs, it merely rewrites syslog events matching the IOS format. You need to already have IOS events coming in as the syslog OR cisco:ios sourcetype.
 
 +++ Setup and configuration
