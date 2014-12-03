@@ -6,9 +6,9 @@ Last Modified:          2014-11-10
 Splunk Version:         5.0.x, 6.x
 Author:                 Mikael Bjerkeland
 
-The Cisco Networks Add-on (TA-cisco_networks) sets the correct sourcetype and fields used for identifying data from Cisco IOS, IOS XE, IOS XR, NX-OS devices using Splunk® Enterprise.
+The Cisco Networks Add-on (TA-cisco_ios) sets the correct sourcetype and fields used for identifying data from Cisco IOS, IOS XE, IOS XR, NX-OS devices using Splunk® Enterprise.
 
-Install this Add-On on your search head and indexers/heavy forwarders. Install the Cisco Networks (cisco_networks) App on your search head.
+Install this Add-On on your search head and indexers/heavy forwarders. Install the Cisco Networks (cisco_ios) App on your search head.
 
 Supported data inputs:
 *  Syslog  
@@ -21,7 +21,7 @@ Please contact me on Splunk Base if there is anything you would like to see in t
 
 +++ 2.1.0 (2014-11-10)
 Features:
-* NAME CHANGED to Cisco Networks Add-on. Remove your old TA-cisco_ios folder after upgrading.
+* NAME CHANGED to Cisco Networks Add-on.
 * RFC5424 support (untested). Rewrites sourcetype rfc5424_syslog to cisco:ios if it matches. Also extracts fields
 
 +++ 2.0.0 (2014-09-19)
