@@ -1,8 +1,8 @@
 Copyright (C) 2013-2014 Mikael Bjerkeland. All Rights Reserved.
 
 App:                    Cisco Networks Add-on (formerly known as Cisco IOS Technology Add-On)
-Current Version:        2.1.0
-Last Modified:          2014-11-10
+Current Version:        2.2.0
+Last Modified:          2015-01-16
 Splunk Version:         5.0.x, 6.x
 Author:                 Mikael Bjerkeland
 
@@ -17,6 +17,10 @@ Supported data inputs:
 Please post a question on Splunk Answers and tag it with "Cisco Networks Add-on" if there is anything you would like to see in this app.
 
 ++ What's New
+
++++ 2.2.0 (2015-01-16)
+Bug fixes:
+* Removed cisco_ios_hosts_last_period
 
 +++ 2.1.0 (2014-11-10)
 Features:
