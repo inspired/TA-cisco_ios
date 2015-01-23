@@ -21,7 +21,6 @@ Please post a question on Splunk Answers and tag it with "Cisco Networks Add-on"
 +++ 2.2.0 (2015-01-16)
 Features:
 * Four new extractions: ARP Inspection, IP Source guard ++
-
 Bug fixes:
 * Removed cisco_ios_hosts_last_period
 
