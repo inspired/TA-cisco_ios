@@ -66,12 +66,13 @@ Cisco Networks Add-on includes the following new features:
 Version 2.2.0 of the Cisco Networks Add-on fixes the following issues:
 
 - Removed *cisco_ios_hosts_last_period* lookup
+- ap_mac and src_mac issues for wireless resolved
 
 ##### Known issues
 
 Version 2.2.0 of the Cisco Networks Add-on has the following known issues:
 
-- None known
+- EVAL searchmatch action lookup not working correctly due to conflict with vendor_action lookup
 
 ##### Third-party software attributions
 
