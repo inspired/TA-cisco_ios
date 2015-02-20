@@ -72,7 +72,7 @@ Version 2.2.0 of the Cisco Networks Add-on fixes the following issues:
 
 Version 2.2.0 of the Cisco Networks Add-on has the following known issues:
 
-- EVAL searchmatch action lookup not working correctly due to conflict with vendor_action lookup
+- EVAL searchmatch action lookup not working correctly due to conflict with vendor_action lookup. Will need to be fixed by moving all the searchmatches to vendor_action_lookup
 
 ##### Third-party software attributions
 
