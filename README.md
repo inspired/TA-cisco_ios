@@ -62,6 +62,7 @@ Cisco Networks Add-on includes the following new features:
 - Moved a few extractions to transforms.conf. 
 - Added extraction for SEC_LOGIN-1-QUIET_MODE_ON
 - Regex routing contributions from seismiccollission
+- product field lookup now done based on presence of fields. This results in WLC or IOS as the two possible products
 
 ##### Fixed issues
 
