@@ -6,3 +6,19 @@ Stop,allowed
 Dropping,dropped
 Created,allowed
 Deleted,allowed
+failed,failure
+no-response,failure
+succeeded,success
+successful,success
+assigned,success
+Reload requested,modified
+System restarted,modified
+is not responding.,failure
+has returned,success
+timeout,failure
+no-response,failure
+success,success
+SUCCESS,success
+FAILURE,failure
+Failed,failure
+Succeeded,success
