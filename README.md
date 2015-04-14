@@ -30,7 +30,7 @@
 
 | Author | Mikael Bjerkeland |
 | --- | --- |
-| App Version | 2.2.1 |
+| App Version | 2.2.2 |
 | Vendor Products | Cisco Catalyst, ASR, ISR, Nexus, CRS and other IOS based switches, Wireless LAN Controller |
 | Has index-time operations | True |
 | Create an index | False |
@@ -46,7 +46,7 @@ No scripts or binaries are included.
 
 ##### About this release
 
-Version 2.2.1 of the Cisco Networks Add-on is compatible with:
+Version 2.2.2 of the Cisco Networks Add-on is compatible with:
 
 | Splunk Enterprise versions | 5.0.x, 6.x |
 | --- | --- |
@@ -66,17 +66,19 @@ Cisco Networks Add-on includes the following new features:
 
 ##### Fixed issues
 
-Version 2.2.1 of the Cisco Networks Add-on fixes the following issues:
+Version 2.2.2 of the Cisco Networks Add-on fixes the following issues:
+
+- Transform corrected in case of missing reported_hostname. General field extraction also edited.
 
 ##### Known issues
 
-Version 2.2.1 of the Cisco Networks Add-on has the following known issues:
+Version 2.2.2 of the Cisco Networks Add-on has the following known issues:
 
 - EVAL searchmatch action lookup not working correctly due to conflict with vendor_action lookup. Will need to be fixed by moving all the searchmatches to vendor_action_lookup
 
 ##### Third-party software attributions
 
-Version 2.2.1 of the Cisco Networks Add-on incorporates the following third-party software or libraries.
+Version 2.2.2 of the Cisco Networks Add-on incorporates the following third-party software or libraries.
 
 - None
 
