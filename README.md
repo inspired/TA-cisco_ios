@@ -23,7 +23,6 @@
 - Data types
 - Lookups
 
----
 ### OVERVIEW
 
 #### About the Cisco Networks Add-on
@@ -58,6 +57,8 @@ Version 2.2.2 of the Cisco Networks Add-on is compatible with:
 ##### New features
 
 Cisco Networks Add-on includes the following new features:
+
+- Direct AP logging now supported. product field can now hold a value of IOS, WLC or IOS
 
 
 ##### Fixed issues
