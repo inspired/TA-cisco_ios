@@ -32,4 +32,4 @@ Inactive,unknown,
 Non participating,unknown,alert
 Power Controller reports power Imax error detected,unknown,alert
 Power Controller reports power Tstart error detected,unknown,alert
-Power given, but Power Controller does not report Power Good,unknown,alert
+"Power given, but Power Controller does not report Power Good",unknown,alert
