@@ -22,3 +22,9 @@ SUCCESS,success
 FAILURE,failure
 Failed,failure
 Succeeded,success
+administratively down,modified
+administratively up,modified
+Administratively Down,modified
+Administratively Up,modified
+down,unknown
+up,unknown
