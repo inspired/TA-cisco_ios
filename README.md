@@ -68,6 +68,7 @@ Version 2.2.2 of the Cisco Networks Add-on fixes the following issues:
 - Transform corrected in case of missing reported_hostname. General field extraction also edited.
 - EVAL searchmatch action lookup not working correctly due to conflict with vendor_action lookup. Will need to be fixed by moving all the searchmatches to vendor_action_lookup
 - Field extractions for Nexus interface admin changes + tags
+- Normalization of src_int in case it contains whitespaces, i.e. "vlan 3333" is now "vlan3333"
 
 ##### Known issues
 
