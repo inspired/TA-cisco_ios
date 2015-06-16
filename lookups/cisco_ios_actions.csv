@@ -29,7 +29,21 @@ Administratively Up,modified,
 down,unknown,
 up,unknown,
 Inactive,unknown,
+BGP Notification sent,unknown,
+Interface PEER-TERMINATION received,unknown,
+Interface flap,unknown,alert
+Loading Done,unknown,event
+Login Authentication Failed,failure,
+Neighbor Down: Dead timer expired,unknown,alert
+Neighbor Down: Interface down or detached,unknown,alert
 Non participating,unknown,alert
+Peer Termination received,unknown,alert
 Power Controller reports power Imax error detected,unknown,alert
 Power Controller reports power Tstart error detected,unknown,alert
 "Power given, but Power Controller does not report Power Good",unknown,alert
+TCP connection closed by peer,unknown,alert
+holding time expired,unknown,alert
+interface down,unknown,alert
+new adjacency,unknown,event
+peer restarted,unknown,event
+retry limit exceeded,unknown,alert
