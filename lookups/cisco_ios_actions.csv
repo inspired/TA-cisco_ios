@@ -1,31 +1,35 @@
-vendor_action,action
-permitted,allowed
-denied,blocked
-Start,allowed
-Stop,allowed
-Dropping,dropped
-Created,allowed
-Deleted,allowed
-failed,failure
-no-response,failure
-succeeded,success
-successful,success
-assigned,success
-Reload requested,modified
-System restarted,modified
-is not responding.,failure
-has returned,success
-timeout,failure
-no-response,failure
-success,success
-SUCCESS,success
-FAILURE,failure
-Failed,failure
-Succeeded,success
-administratively down,modified
-administratively up,modified
-Administratively Down,modified
-Administratively Up,modified
-down,unknown
-up,unknown
-Inactive,unknown
+vendor_action,action,type
+permitted,allowed,
+denied,blocked,
+Start,allowed,
+Stop,allowed,
+Dropping,dropped,
+Created,allowed,
+Deleted,allowed,
+failed,failure,
+no-response,failure,
+succeeded,success,
+successful,success,
+assigned,success,
+Reload requested,modified,
+System restarted,modified,
+is not responding.,failure,
+has returned,success,
+timeout,failure,
+no-response,failure,
+success,success,
+SUCCESS,success,
+FAILURE,failure,
+Failed,failure,
+Succeeded,success,
+administratively down,modified,
+administratively up,modified,
+Administratively Down,modified,
+Administratively Up,modified,
+down,unknown,
+up,unknown,
+Inactive,unknown,
+Non participating,unknown,alert
+Power Controller reports power Imax error detected,unknown,alert
+Power Controller reports power Tstart error detected,unknown,alert
+Power given, but Power Controller does not report Power Good,unknown,alert
