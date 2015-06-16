@@ -1,4 +1,4 @@
-vendor_action,action,type
+vendor_action,action,type,change_type
 permitted,allowed,
 denied,blocked,
 Start,allowed,
@@ -11,8 +11,8 @@ no-response,failure,
 succeeded,success,
 successful,success,
 assigned,success,
-Reload requested,modified,
-System restarted,modified,
+Reload requested,modified,,restart
+System restarted,modified,,restart
 is not responding.,failure,
 has returned,success,
 timeout,failure,
@@ -22,6 +22,10 @@ SUCCESS,success,
 FAILURE,failure,
 Failed,failure,
 Succeeded,success,
+blocking,unknown,
+unblocking,unknown,
+joined,unknown,
+left,unknown,
 administratively down,modified,
 administratively up,modified,
 Administratively Down,modified,
