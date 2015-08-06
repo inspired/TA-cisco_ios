@@ -1,22 +1,3 @@
-Copyright (C) 2013-2014 Mikael Bjerkeland. All Rights Reserved.
-
-App:                    Cisco Networks Add-on (formerly known as Cisco IOS Technology Add-On)
-Current Version:        2.2.0
-Last Modified:          2015-01-16
-Splunk Version:         5.0.x, 6.x
-Author:                 Mikael Bjerkeland
-
-The Cisco Networks Add-on (TA-cisco_ios) sets the correct sourcetype and fields used for identifying data from Cisco IOS, IOS XE, IOS XR, NX-OS devices using Splunk® Enterprise.
-
-Install this Add-on on your search head and indexers/heavy forwarders. Install the Cisco Networks (cisco_ios) App on your search head.
-
-Supported data inputs:
-*  Syslog  
-*  Smart Call Home (HTTP XML)
-
-Please post a question on Splunk Answers and tag it with "Cisco Networks Add-on" if there is anything you would like to see in this app.
-
-++ What's New
 
 +++ 2.2.0 (2015-01-16)
 Features:
@@ -114,51 +95,3 @@ Bug fixes:
 +++ 1.0.0 (2013-03-19)
 Features:
 * The app has been split up into two parts, one App for the search head and a TA for indexers. This app should be installed on your indexers
-
-++ Application Details
-
-Sourcetype(s):            cisco:ios, Cisco:SmartCallHome  
-Supported Technologies: Cisco IOS, IOS-XE, NX-OS, IOS XR, WLC devices
-
-
-++ Installation Instructions
-
-The Cisco Networks Add-on can be downloaded, installed, and configured to receive Cisco IOS and WLC data by either using the Splunk app setup screen or by manually installing and configuring the app.
-This app does not add any new inputs, it merely rewrites syslog events matching the IOS format. You need to already have IOS events coming in as the syslog OR cisco:ios sourcetype.
-
-+++ Setup and configuration
-
-1. Install in $SPLUNK_HOME/etc/apps/TA-cisco_ios
-
-2. Make sure your Cisco devices by default log to one of the following sourcetypes: cisco:ios OR syslog (A regex match will be performed to rewrite the events to the cisco:ios sourcetype)
-
-3. (OPTIONAL for Smart Call Home support)
-
-3.1. OPTIONAL - Add a new TCP data input on a port of your choice, set sourcetype to Cisco:SmartCallHome
-
-3.2. OPTIONAL - On your Cisco devices:
---  
-service call-home  
-call-home  
- contact-email-addr YOUR.EMAIL@ADDR.ESS  
- site-id "YOUR_SITE_NAME"  
- profile "Splunk"  
-  destination transport-method http  
-  destination address http http://SPLUNK.SERVER.IP:TCP_PORT_FROM_3.1  
-  subscribe-to-alert-group diagnostic severity debug  
-  subscribe-to-alert-group environment severity debug  
-  subscribe-to-alert-group inventory  
-  subscribe-to-alert-group inventory periodic daily 22:30  
---
-
-4. Restart Splunk
-
-
-++ TODO
-* In transforms.conf: NEED TO ADD extract_cisco_ios-general-wlc (8500) and remove the # extraction above. Because time ends up in reported_hostname
-
-++ Getting Help
-
-* Consult Splunk Answers
-* Contact the author: mikael@bjerkeland.com
-
