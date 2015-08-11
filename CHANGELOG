@@ -1,3 +1,13 @@
++++ 2.2.2 (2015-08-11)
+Features:
+* Direct AP logging now supported. product field can now hold a value of IOS, WLC or IOS
+* IP version agnostic IP extractions
+Bug fixes:
+* Transform corrected in case of missing reported_hostname. General field extraction also edited.
+* EVAL searchmatch action lookup not working correctly due to conflict with vendor_action lookup. Will need to be fixed by moving all the searchmatches to vendor_action_lookup
+* Field extractions for Nexus interface admin changes + tags
+* Normalization of src_int in case it contains whitespaces, i.e. "vlan 3333" is now "vlan3333"
+
 +++ 2.2.0 (2015-01-16)
 Features:
 * Four new extractions: ARP Inspection, IP Source guard ++
