@@ -49,7 +49,7 @@ Version 2.2.2 of the Cisco Networks Add-on is compatible with:
 
 | Splunk Enterprise versions | 5.0.x, 6.x |
 | --- | --- |
-| CIM | 4.1 |
+| CIM | 4.2, 4.1, 4.0 |
 | Platforms | Platform independent |
 | Vendor Products | Cisco Catalyst, ASR, ISR, Nexus, CRS and other IOS based switches, Wireless LAN Controller |
 | Lookup file changes | None |
