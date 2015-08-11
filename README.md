@@ -59,6 +59,7 @@ Version 2.2.2 of the Cisco Networks Add-on is compatible with:
 Cisco Networks Add-on includes the following new features:
 
 - Direct AP logging now supported. product field can now hold a value of IOS, WLC or IOS
+- IP version agnostic IP extractions
 
 
 ##### Fixed issues
