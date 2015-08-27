@@ -1,7 +1,8 @@
-+++ 2.2.2 (2015-08-11)
++++ 2.2.2 (2015-08-27)
 Features:
 * Direct AP logging now supported. product field can now hold a value of IOS, WLC or IOS
 * IP version agnostic IP extractions
+* Lookup of ICMP codes and types in ACL logs
 Bug fixes:
 * Transform corrected in case of missing reported_hostname. General field extraction also edited.
 * EVAL searchmatch action lookup not working correctly due to conflict with vendor_action lookup. Will need to be fixed by moving all the searchmatches to vendor_action_lookup
