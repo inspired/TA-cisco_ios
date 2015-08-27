@@ -60,7 +60,7 @@ Cisco Networks Add-on includes the following new features:
 
 - Direct AP logging now supported. product field can now hold a value of IOS, WLC or IOS
 - IP version agnostic IP extractions
-
+- Lookup of ICMP codes and types in ACL logs
 
 ##### Fixed issues
 
