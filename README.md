@@ -52,7 +52,7 @@ Version 2.3.0 of the Cisco Networks Add-on is compatible with:
 | CIM | 4.2, 4.1, 4.0 |
 | Platforms | Platform independent |
 | Vendor Products | Cisco Catalyst, ASR, ISR, Nexus, CRS and other IOS based switches, Wireless LAN Controller |
-| Lookup file changes | None |
+| Lookup file changes | Added cisco_ios_icmp_code.csv |
 
 ##### New features
 
