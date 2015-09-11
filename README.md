@@ -245,6 +245,14 @@ Provides an app field for CIM compliance.
 - Lookup fields: sourcetype, app
 - Lookup contents: See the file contents
 
+**cisco_ios_icmp_code.csv**
+
+Provides ICMP code lookups for ACL events. Needed for CIM compliance
+
+- File location: lookups/cisco_ios_icmp_code.csv
+- Lookup fields: icmp_code_id, icmp_code, reference
+- Lookup contents: See the file contents
+
 **cisco_ios_interface_name.csv**
 
 Normalizes interface names in case an event includes the short form interface name, i.e. Gi0/2 instead of GigabitEthernet0/2.
