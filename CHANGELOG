@@ -1,4 +1,4 @@
-+++ 2.2.2 (2015-08-27)
++++ 2.3.0 (2015-09-11)
 Features:
 * Direct AP logging now supported. product field can now hold a value of IOS, WLC or IOS
 * IP version agnostic IP extractions
