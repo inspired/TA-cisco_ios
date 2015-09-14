@@ -85,15 +85,15 @@ Version 2.3.0 of the Cisco Networks Add-on incorporates the following third-part
 
 ##### Support and resources
 
-**Questions and answers**
+**The Cisco Networks Add-on for Splunk Enterprise is supported for all users who have a Splunk Support Contract or Cisco Service Contract with Datametrix**
 
-Access questions and answers specific to the Cisco Networks Add-on at http://answers.splunk.com/app/questions/1467.html.
+* Hours: Mon-Fri 08:00 - 16:00 Central European Time
+* Observed Holidays: All Norwegian Public Holidays, December 23 to January 2, Palm Sunday to Easter Monday.
+* Email: mikael.bjerkeland@datametrix.no
 
-**Support**
+**For users who are not customers of Datametrix, best effort support is available via Splunk Answers**
 
-- Consult Splunk Answers tagging your question with Cisco Networks
-- Contact the author: mikael@bjerkeland.com
-
+* Access questions and answers specific to the Cisco Networks Add-on at http://answers.splunk.com/app/questions/1467.html
 
 ## INSTALLATION AND CONFIGURATION
 
