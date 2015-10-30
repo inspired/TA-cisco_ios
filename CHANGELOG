@@ -1,3 +1,10 @@
++++ 2.3.1 (2015-10-30)
+Features:
+* New CIM tags: insecure logins and privilege escalations
+Bug fixes:
+* IOS XR general field extraction and transform fixed
+* Corrected a few typos
+
 +++ 2.3.0 (2015-09-11)
 Features:
 * Direct AP logging now supported. product field can now hold a value of IOS, WLC or IOS
