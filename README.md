@@ -29,7 +29,7 @@
 
 | Author | Mikael Bjerkeland |
 | --- | --- |
-| App Version | 2.3.0 |
+| App Version | 2.3.1 |
 | Vendor Products | Cisco Catalyst, ASR, ISR, Nexus, CRS and other IOS based switches, Wireless LAN Controller |
 | Has index-time operations | True |
 | Create an index | False |
@@ -45,7 +45,7 @@ No scripts or binaries are included.
 
 ##### About this release
 
-Version 2.3.0 of the Cisco Networks Add-on is compatible with:
+Version 2.3.1 of the Cisco Networks Add-on is compatible with:
 
 | Splunk Enterprise versions | 5.0.x, 6.x |
 | --- | --- |
@@ -58,28 +58,24 @@ Version 2.3.0 of the Cisco Networks Add-on is compatible with:
 
 Cisco Networks Add-on includes the following new features:
 
-- Direct AP logging now supported. product field can now hold a value of IOS, WLC or IOS
-- IP version agnostic IP extractions
-- Lookup of ICMP codes and types in ACL logs
+- New CIM tags: insecure logins and privilege escalations
 
 ##### Fixed issues
 
-Version 2.3.0 of the Cisco Networks Add-on fixes the following issues:
+Version 2.3.1 of the Cisco Networks Add-on fixes the following issues:
 
-- Transform corrected in case of missing reported_hostname. General field extraction also edited.
-- EVAL searchmatch action lookup not working correctly due to conflict with vendor_action lookup. Will need to be fixed by moving all the searchmatches to vendor_action_lookup
-- Field extractions for Nexus interface admin changes + tags
-- Normalization of src_int in case it contains whitespaces, i.e. "vlan 3333" is now "vlan3333"
+- IOS XR general field extraction and transform fixed
+- Corrected a few typos
 
 ##### Known issues
 
-Version 2.3.0 of the Cisco Networks Add-on has the following known issues:
+Version 2.3.1 of the Cisco Networks Add-on has the following known issues:
 
 - None known
 
 ##### Third-party software attributions
 
-Version 2.3.0 of the Cisco Networks Add-on incorporates the following third-party software or libraries.
+Version 2.3.1 of the Cisco Networks Add-on incorporates the following third-party software or libraries.
 
 - None
 
