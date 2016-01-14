@@ -29,7 +29,7 @@
 
 | Author | Mikael Bjerkeland |
 | --- | --- |
-| App Version | 2.3.1 |
+| App Version | 2.3.2 |
 | Vendor Products | Cisco Catalyst, ASR, ISR, Nexus, CRS and other IOS based switches, Wireless LAN Controller |
 | Has index-time operations | True |
 | Create an index | False |
@@ -45,7 +45,7 @@ No scripts or binaries are included.
 
 ##### About this release
 
-Version 2.3.1 of the Cisco Networks Add-on is compatible with:
+Version 2.3.2 of the Cisco Networks Add-on is compatible with:
 
 | Splunk Enterprise versions | 5.0.x, 6.x |
 | --- | --- |
@@ -58,24 +58,23 @@ Version 2.3.1 of the Cisco Networks Add-on is compatible with:
 
 Cisco Networks Add-on includes the following new features:
 
-- New CIM tags: insecure logins and privilege escalations
+- None
 
 ##### Fixed issues
 
-Version 2.3.1 of the Cisco Networks Add-on fixes the following issues:
+Version 2.3.2 of the Cisco Networks Add-on fixes the following issues:
 
-- IOS XR general field extraction and transform fixed
-- Corrected a few typos
+- Improvements to the general extractions contributed by m4dc0w
 
 ##### Known issues
 
-Version 2.3.1 of the Cisco Networks Add-on has the following known issues:
+Version 2.3.2 of the Cisco Networks Add-on has the following known issues:
 
 - None known
 
 ##### Third-party software attributions
 
-Version 2.3.1 of the Cisco Networks Add-on incorporates the following third-party software or libraries.
+Version 2.3.2 of the Cisco Networks Add-on incorporates the following third-party software or libraries.
 
 - None
 
