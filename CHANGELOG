@@ -1,3 +1,7 @@
++++ 2.3.2 (2016-01-14)
+Bug fixes:
+* Improvements to the general extractions contributed by m4dc0w
+
 +++ 2.3.1 (2015-10-30)
 Features:
 * New CIM tags: insecure logins and privilege escalations
