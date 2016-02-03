@@ -1,0 +1,327 @@
+<soap-env:Envelope xmlns:soap-env="http://www.w3.org/2003/05/soap-envelope">
+<soap-env:Header>
+<aml-session:Session xmlns:aml-session="http://www.cisco.com/2004/01/aml-session" soap-env:mustUnderstand="true" soap-env:role="http://www.w3.org/2003/05/soap-envelope/role/next">
+<aml-session:To>http://tools.cisco.com/neddce/services/DDCEService</aml-session:To>
+<aml-session:Path>
+<aml-session:Via>http://www.cisco.com/appliance/uri</aml-session:Via>
+</aml-session:Path>
+<aml-session:From>http://www.cisco.com/appliance/uri</aml-session:From>
+<aml-session:MessageId>M450:XXX1651Z087:DA5C45E0</aml-session:MessageId>
+</aml-session:Session>
+</soap-env:Header>
+<soap-env:Body>
+<aml-block:Block xmlns:aml-block="http://www.cisco.com/2004/01/aml-block">
+<aml-block:Header>
+<aml-block:Type>http://www.cisco.com/2005/05/callhome/environment</aml-block:Type>
+<aml-block:CreationDate>2016-02-03 10:24:48 GMT+01:00</aml-block:CreationDate>
+<aml-block:Builder>
+<aml-block:Name>Cat2k/3k</aml-block:Name>
+<aml-block:Version>2.0</aml-block:Version>
+</aml-block:Builder>
+<aml-block:BlockGroup>
+<aml-block:GroupId>G451:XXX1651Z087:DA5C45E0</aml-block:GroupId>
+<aml-block:Number>0</aml-block:Number>
+<aml-block:IsLast>true</aml-block:IsLast>
+<aml-block:IsPrimary>true</aml-block:IsPrimary>
+<aml-block:WaitForPrimary>false</aml-block:WaitForPrimary>
+</aml-block:BlockGroup>
+<aml-block:Severity>1</aml-block:Severity>
+</aml-block:Header>
+<aml-block:Content>
+<ch:CallHome xmlns:ch="http://www.cisco.com/2005/05/callhome" version="1.0">
+<ch:EventTime>2016-02-03 10:24:45 GMT+01:00</ch:EventTime>
+<ch:MessageDescription> Power normal alarm on Power Supply 0 sensor?</ch:MessageDescription>
+<ch:Event>
+<ch:Type>environment</ch:Type>
+<ch:SubType>normal</ch:SubType>
+<ch:Brand>Cisco Systems</ch:Brand>
+<ch:Series>Cat3750 Series Switches</ch:Series>
+</ch:Event>
+<ch:CustomerData>
+<ch:UserData>
+<ch:Email>mibj@statsbygg.no</ch:Email>
+</ch:UserData>
+<ch:ContractData>
+<ch:CustomerId></ch:CustomerId>
+<ch:SiteId>SBE-3481</ch:SiteId>
+<ch:ContractId></ch:ContractId>
+<ch:DeviceId>WS-C3750X-24T-S@C@XXX1645R0G7</ch:DeviceId>
+</ch:ContractData>
+<ch:SystemInfo>
+<ch:Name>HHHHHHHH</ch:Name>
+<ch:Contact>IKT Drift</ch:Contact>
+<ch:ContactEmail>mibj@statsbygg.no</ch:ContactEmail>
+<ch:ContactPhoneNumber></ch:ContactPhoneNumber>
+<ch:StreetAddress></ch:StreetAddress>
+</ch:SystemInfo>
+<ch:CCOID></ch:CCOID>
+</ch:CustomerData>
+<ch:Device>
+<rme:Chassis xmlns:rme="http://www.cisco.com/rme/4.0">
+<rme:Model>WS-C3750X-24T-S</rme:Model>
+<rme:HardwareVersion>3</rme:HardwareVersion>
+<rme:SerialNumber>XXX1645R0G7</rme:SerialNumber>
+<rme:Card>
+<rme:Model>C3KX-PWR-350WAC   </rme:Model>
+<rme:SerialNumber>AZS</rme:SerialNumber>
+<rme:LocationWithinContainer>Switch 2 - Power Supply 0</rme:LocationWithinContainer>
+<rme:PartNumber></rme:PartNumber>
+<rme:HardwareVersion>V02A</rme:HardwareVersion>
+<rme:SoftwareIdentity>
+<rme:VersionString></rme:VersionString>
+</rme:SoftwareIdentity>
+<rme:AdditionalInformation>
+<rme:AD name="OID" value="" />
+<rme:AD name="SystemObjectId" value="" />
+<rme:AD name="SystemDescription" value="" />
+</rme:AdditionalInformation>
+</rme:Card>
+<rme:AdditionalInformation>
+<rme:AD name="PartNumber" value="800-35090-04" />
+<rme:AD name="SoftwareVersion" value="15.2(1)E" />
+<rme:AD name="SystemObjectId" value="1.3.6.1.4.1.9.1.516" />
+<rme:AD name="SystemDescription" value="Cisco IOS Software, C3750E Software (C3750E-UNIVERSALK9-M), Version 15.2(1)E, RELEASE SOFTWARE (fc3)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2013 by Cisco Systems, Inc.
+Compiled Tue 27-Aug-13 11:06 by prod_rel_team" />
+</rme:AdditionalInformation>
+</rme:Chassis>
+</ch:Device>
+</ch:CallHome>
+</aml-block:Content>
+<aml-block:Attachments>
+<aml-block:Attachment type="inline">
+<aml-block:Name>show env all</aml-block:Name>
+<aml-block:Data encoding="plain">
+<![CDATA[FAN 1 is OK
+FAN 2 is OK
+FAN PS-1 is OK
+FAN PS-2 is NOT PRESENT
+SYSTEM TEMPERATURE is OK
+System Temperature Value: 35 Degree Celsius
+System Temperature State: GREEN
+Yellow Threshold : 46 Degree Celsius
+Red Threshold    : 60 Degree Celsius
+SW  PID                 Serial#     Status           Sys Pwr  PoE Pwr  Watts
+--  ------------------  ----------  ---------------  -------  -------  -----
+1A  C3KX-PWR-350WAC     DTN1635L1SA OK              Good     Good     350/0
+1B  Not Present       
+2A  C3KX-PWR-350WAC     AZS164902YL No Response     Good     Good     350/0
+2B  Not Present       
+
+SW  Status          RPS Name          RPS Serial#  RPS Port#
+--  -------------   ----------------  -----------  ---------
+1   Not Present     <>
+2   Not Present     <>
+
+
+HHHHHHHH#]]></aml-block:Data>
+</aml-block:Attachment>
+<aml-block:Attachment type="inline">
+<aml-block:Name>show logging</aml-block:Name>
+<aml-block:Data encoding="plain">
+<![CDATA[
+Syslog logging: enabled (0 messages dropped, 0 messages rate-limited, 36 flushes, 4 overruns, xml disabled, filtering disabled)
+
+No Active Message Discriminator.
+
+
+
+No Inactive Message Discriminator.
+
+
+    Console logging: level debugging, 1087631 messages logged, xml disabled,
+                     filtering disabled
+    Monitor logging: level debugging, 291 messages logged, xml disabled,
+                     filtering disabled
+    Buffer logging:  level debugging, 1087533 messages logged, xml disabled,
+                    filtering disabled
+    Exception Logging: size (4096 bytes)
+    Count and timestamp logging messages: disabled
+    File logging: disabled
+    Persistent logging: disabled
+
+No active filter modules.
+
+    Trap logging: level informational, 1088672 message lines logged
+        Logging to 192.168.1.200  (udp port 514, audit disabled,
+              link up),
+              1088671 message lines logged, 
+              0 message lines rate-limited, 
+              0 message lines dropped-by-MD, 
+              xml disabled, sequence number disabled
+              filtering disabled
+        Logging to 192.168.1.200  (udp port 514, audit disabled,
+              link up),
+              1088672 message lines logged, 
+              0 message lines rate-limited, 
+              0 message lines dropped-by-MD, 
+              xml disabled, sequence number disabled
+              filtering disabled
+        Logging Source-Interface:       VRF Name:
+        Vlan2                           
+HHHHHHHH#]]></aml-block:Data>
+</aml-block:Attachment>
+<aml-block:Attachment type="inline">
+<aml-block:Name>show inventory</aml-block:Name>
+<aml-block:Data encoding="plain">
+<![CDATA[NAME: "2", DESCR: "WS-C3750X-12S"
+PID: WS-C3750X-12S-S   , VID: V03  , SN: XXX1651Z087
+
+NAME: "Switch 2 - Power Supply 0", DESCR: "FRU Power Supply"
+PID: C3KX-PWR-350WAC   , VID: V02A , SN: AZS164902YL
+
+NAME: "GigabitEthernet2/0/1", DESCR: "1000BaseSX SFP"
+PID: Unspecified       , VID:      , SN: AGM1639L2ZK     
+
+NAME: "GigabitEthernet2/0/2", DESCR: "1000BaseSX SFP"
+PID: Unspecified       , VID:      , SN: AGM1639L30K     
+
+NAME: "GigabitEthernet2/0/3", DESCR: "1000BaseSX SFP"
+PID: Unspecified       , VID:      , SN: AGM1639L30T     
+
+NAME: "GigabitEthernet2/0/4", DESCR: "1000BaseSX SFP"
+PID: Unspecified       , VID:      , SN: AGM1637L1U9     
+
+NAME: "GigabitEthernet2/0/5", DESCR: "1000BaseSX SFP"
+PID: Unspecified       , VID:      , SN: AGM1637L1TN     
+
+NAME: "GigabitEthernet2/0/6", DESCR: "1000BaseSX SFP"
+PID: Unspecified       , VID:      , SN: AGM1637L79P     
+
+NAME: "GigabitEthernet2/0/7", DESCR: "1000BaseSX SFP"
+PID: Unspecified       , VID:      , SN: AGM1637L1U1     
+
+NAME: "GigabitEthernet2/0/8", DESCR: "1000BaseSX SFP"
+PID: Unspecified       , VID:      , SN: AGM1639L2R5     
+
+NAME: "GigabitEthernet2/0/9", DESCR: "1000BaseSX SFP"
+PID: Unspecified       , VID:      , SN: AGM1639L2Z2     
+
+NAME: "GigabitEthernet2/0/10", DESCR: "1000BaseSX SFP"
+PID: Unspecified       , VID:      , SN: AGM1639L30V     
+
+NAME: "GigabitEthernet2/0/12", DESCR: "1000BaseLX SFP"
+PID: Unspecified       , VID:      , SN: FNS16411J79     
+
+NAME: "Switch 2 - FRULink Slot 1 - FRULink Module", DESCR: "FRULink 1G Module"
+PID: C3KX-NM-1G        , VID: V01  , SN: FDO163904XF
+
+NAME: "1", DESCR: "WS-C3750X-24"
+PID: WS-C3750X-24T-S   , VID: V04  , SN: XXX1645R0G7
+
+NAME: "Switch 1 - Power Supply 0", DESCR: "FRU Power Supply"
+PID: C3KX-PWR-350WAC   , VID: V02D , SN: DTN1635L1SA
+
+
+HHHHHHHH#]]></aml-block:Data>
+</aml-block:Attachment>
+<aml-block:Attachment type="inline">
+<aml-block:Name>show env power</aml-block:Name>
+<aml-block:Data encoding="plain">
+<![CDATA[SW  PID                 Serial#     Status           Sys Pwr  PoE Pwr  Watts
+--  ------------------  ----------  ---------------  -------  -------  -----
+2A  C3KX-PWR-350WAC     AZS164902YL No Response     Good     Good     350/0
+2B  Not Present       
+
+HHHHHHHH#]]></aml-block:Data>
+</aml-block:Attachment>
+<aml-block:Attachment type="inline">
+<aml-block:Name>show version</aml-block:Name>
+<aml-block:Data encoding="plain">
+<![CDATA[Cisco IOS Software, C3750E Software (C3750E-UNIVERSALK9-M), Version 15.2(1)E, RELEASE SOFTWARE (fc3)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2013 by Cisco Systems, Inc.
+Compiled Tue 27-Aug-13 11:06 by prod_rel_team
+
+ROM: Bootstrap program is C3750E boot loader
+BOOTLDR: C3750E Boot Loader (C3750X-HBOOT-M) Version 12.2(58r)SE, RELEASE SOFTWARE (fc1)
+
+HHHHHHHH uptime is 7 weeks, 1 day, 1 hour, 5 minutes
+System returned to ROM by power-on
+System restarted at 09:22:37 CET Tue Dec 15 2015
+System image file is "flash:/c3750e-universalk9-mz.152-1.E/c3750e-universalk9-mz.152-1.E.bin"
+Last reload reason: Unknown reason
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+License Level: ipbase
+License Type: Permanent
+Next reload license Level: ipbase
+
+cisco WS-C3750X-12S (PowerPC405) processor (revision A0) with 524288K bytes of memory.
+Processor board ID XXX1651Z087
+Last reset from power-on
+5 Virtual Ethernet interfaces
+1 FastEthernet interface
+44 Gigabit Ethernet interfaces
+4 Ten Gigabit Ethernet interfaces
+The password-recovery mechanism is disabled.
+
+512K bytes of flash-simulated non-volatile configuration memory.
+Base ethernet MAC Address       : 00:06:F6:33:3F:00
+Motherboard assembly number     : 73-13329-04
+Motherboard serial number       : FDO16503B3F
+Model revision number           : A0
+Motherboard revision number     : A0
+Model number                    : WS-C3750X-12S-S
+Daughterboard assembly number   : 800-32727-03
+Daughterboard serial number     : FDO165032UG
+System serial number            : XXX1651Z087
+Top Assembly Part Number        : 800-35090-04
+Top Assembly Revision Number    : B0
+Version ID                      : V03
+CLEI Code Number                : CMMFG00ARC
+Hardware Board Revision Number  : 0x04
+
+
+Switch Ports Model              SW Version            SW Image                 
+------ ----- -----              ----------            ----------               
+     1 30    WS-C3750X-24       15.2(1)E              C3750E-UNIVERSALK9-M     
+*    2 18    WS-C3750X-12S      15.2(1)E              C3750E-UNIVERSALK9-M     
+
+
+Switch 01
+---------
+Switch Uptime                   : 7 weeks, 1 day, 1 hour, 2 minutes 
+Base ethernet MAC Address       : E0:2F:6D:2A:FF:00
+Motherboard assembly number     : 73-12530-08
+Motherboard serial number       : FDO16442P59
+Model revision number           : K0
+Motherboard revision number     : A0
+Model number                    : WS-C3750X-24T-S
+Daughterboard assembly number   : 800-32727-03
+Daughterboard serial number     : FDO16491JA1
+System serial number            : XXX1645R0G7
+Top assembly part number        : 800-31327-07
+Top assembly revision number    : B0
+Version ID                      : V04
+CLEI Code Number                : COMJV00ARD
+License Level                   : ipbase
+License Type                    : Permanent
+Next reboot licensing Level     : ipbase
+
+
+Configuration register is 0xF
+
+HHHHHHHH#]]></aml-block:Data>
+</aml-block:Attachment>
+</aml-block:Attachments>
+</aml-block:Block>
+</soap-env:Body>
+</soap-env:Envelope>
