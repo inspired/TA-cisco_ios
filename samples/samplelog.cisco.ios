@@ -1,25 +1,25 @@
-Jan 9 20:37:16 HHHHHHHH 707564: Jan 9 20:37:15.694 CET: %LINK-3-UPDOWN: Interface _INTERFACE_, changed state to up
-Jan 9 20:36:59 HHHHHHHH 1240193: Jan 9 20:36:58.637 CET: %DUAL-5-NBRCHANGE: IP-EIGRP(0) 30: Neighbor XXX.XXX.XXX.XXX (Tunnel0) is up: new adjacency
-Jan 9 20:36:58 HHHHHHHH 43175: Jan 9 20:36:57.905 CET: %SNMP-3-AUTHFAIL: Authentication failure for SNMP req from host XXX.XXX.XXX.XXX
-Jan 9 20:28:28 HHHHHHHH 7787: Jan 9 20:28:27.876 CET: %ENVIRONMENT-2-FAN_FAULT: System Fault: FAN FAULT is detected.
-Jan 9 20:33:51 HHHHHHHH 78656: Jan 9 20:33:50.379 CET: %HARDWARE-1-TCAM_ERROR: Found error in HFTM TCAM Space and not able to recover the error
-Jan 9 20:36:01 HHHHHHHH 5781: Jan 9 20:36:00.212 CET: %SFF8472-5-THRESHOLD_VIOLATION: Gi0/9: Rx power low warning; Operating value: -22.7 dBm, Threshold value: -19.0 dBm.
-Jan 9 20:37:19 HHHHHHHH 1727688: Jan 9 20:37:18.365 CET: %FAN-3-FAN_FAILED: Fan 4 had a rotation error reported.
-Jan 9 20:37:18 HHHHHHHH 918515: Jan 9 20:37:17.797 CET: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on _INTERFACE_ (not half duplex), with SEP001AD460E097 Port 1 (half duplex).
-Jan 9 20:37:17 HHHHHHHH 747760: Jan 9 20:37:17.353 CET: %ILPOWER-5-IEEE_DISCONNECT: Interface Gi0/1: PD removed
-Jan 9 20:35:36 HHHHHHHH 1867: Jan 9 20:35:35.241 CET: %PIM-6-INVALID_RP_JOIN: VRF nat-public: Received (*, 224.0.1.40) Join from XXX.XXX.XXX.XXX for invalid RP XXX.XXX.XXX.XXX
-Jan 9 20:35:13 HHHHHHHH 256956: Jan 9 20:35:13.895 CET: %SPANTREE-2-BLOCK_BPDUGUARD: Received BPDU on port GigabitEthernet1/0/15 with BPDU Guard enabled. Disabling port.
-Jan 9 20:27:54 HHHHHHHH 11143: Jan 9 20:27:53.533 CET: %SEC-6-IPACCESSLOGP: list 110 denied tcp XXX.XXX.XXX.XXX(6000) -> 0.0.0.0(22), 1 packet
-Jan 9 19:51:53 HHHHHHHH 435: Jan 9 19:51:52.250 CET: %NTP-6-PEERREACH: Peer XXX.XXX.XXX.XXX is reachable
-Jan 9 20:48:31 HHHHHHHH 1230032: Jan 9 20:48:30.132 CET: %CRYPTO-6-IKMP_NOT_ENCRYPTED: IKE packet from XXX.XXX.XXX.XXX was not encrypted and it should've been.
-Jan 9 20:48:14 HHHHHHHH 415287: Jan 9 20:48:13.475 CET: %SYS-2-MALLOCFAIL: Memory allocation of 32768 bytes failed from 0x8030F4A8, alignment 0
-Jan 9 20:50:00 HHHHHHHH 39022: Jan 9 20:49:59.412 CET: %DSLSAR-1-DOWNGRADEDBW: PCR and SCR for VCD 1 (0/33) has been reduced to 1344k 1344k due to insufficient upstream bandwidth
-Jan 9 15:39:21 HHHHHHHH 176: Jan 9 15:39:20.076 CET: %SYS-5-CONFIG_I: Configured from console by UUUUUUUU on vty0 (XXX.XXX.XXX.XXX)
-Jan 9 14:39:50 HHHHHHHH 1669: Jan 9 14:39:49.887 CET: %PARSER-5-CFGLOG_LOGGEDCMD: User:UUUUUUUU logged command:interface _INTERFACE_
-Jan 9 14:25:02 HHHHHHHH 1661: Jan 9 14:25:01.625 CET: %PARSER-5-CFGLOG_LOGGEDCMD: User:UUUUUUUU logged command:switchport access vlan 14
-Jan 9 20:55:27 HHHHHHHH 1114531: Jan 9 20:55:26.295 CET: %FAN-3-FAN_OK: Fan 4 had earlier reported a rotation error. It is ok now
-Jan 9 15:10:31 HHHHHHHH 29494: 029401: Jan 9 15:10:30.812 CET: %SW_MATM-4-MACFLAP_NOTIF: Host 449b.0152.f79a in vlan 22 is flapping between port Gi4/0/2 and port Gi4/0/20
-Aug 19 11:57:01 HHHHHHHH 50990: Aug 19 11:57:00.737 CEST: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: UUUUUUUU] [Source: XXX.XXX.XXX.XXX] [localport: 22] at 11:57:00 CEST Tue Aug 19 2014
-Aug 19 11:51:46 HHHHHHHH 7261: Aug 19 11:51:45.714 CEST: %LDP-5-NBRCHG: LDP Neighbor XXX.XXX.XXX.XXX:0 (1) is UP
-Aug 19 11:51:46 HHHHHHHH 7259: Aug 19 11:51:45.666 CEST: %PIM-5-NBRCHG: neighbor XXX.XXX.XXX.XXX UP on interface _INTERFACE_
-Aug 19 11:50:36 HHHHHHHH 8427: Aug 19 11:50:35.221 CEST: %LDP-5-NBRCHG: LDP Neighbor XXX.XXX.XXX.XXX:0 (1) is DOWN (Interface not operational)
+Jan 9 20:37:16 HHHHHHHH _EVENT_ID_: Jan 9 20:37:15.694 CET: %LINK-3-UPDOWN: Interface _INTERFACE_, changed state to up
+Jan 9 20:36:59 HHHHHHHH _EVENT_ID_: Jan 9 20:36:58.637 CET: %DUAL-5-NBRCHANGE: IP-EIGRP(0) 30: Neighbor XXX.XXX.XXX.XXX (Tunnel0) is up: new adjacency
+Jan 9 20:36:58 HHHHHHHH _EVENT_ID_: Jan 9 20:36:57.905 CET: %SNMP-3-AUTHFAIL: Authentication failure for SNMP req from host XXX.XXX.XXX.XXX
+Jan 9 20:28:28 HHHHHHHH _EVENT_ID_: Jan 9 20:28:27.876 CET: %ENVIRONMENT-2-FAN_FAULT: System Fault: FAN FAULT is detected.
+Jan 9 20:33:51 HHHHHHHH _EVENT_ID_: Jan 9 20:33:50.379 CET: %HARDWARE-1-TCAM_ERROR: Found error in HFTM TCAM Space and not able to recover the error
+Jan 9 20:36:01 HHHHHHHH _EVENT_ID_: Jan 9 20:36:00.212 CET: %SFF8472-5-THRESHOLD_VIOLATION: Gi0/9: Rx power low warning; Operating value: -22.7 dBm, Threshold value: -19.0 dBm.
+Jan 9 20:37:19 HHHHHHHH _EVENT_ID_: Jan 9 20:37:18.365 CET: %FAN-3-FAN_FAILED: Fan 4 had a rotation error reported.
+Jan 9 20:37:18 HHHHHHHH _EVENT_ID_: Jan 9 20:37:17.797 CET: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on _INTERFACE_ (not half duplex), with SEP001AD460E097 Port 1 (half duplex).
+Jan 9 20:37:17 HHHHHHHH _EVENT_ID_: Jan 9 20:37:17.353 CET: %ILPOWER-5-IEEE_DISCONNECT: Interface Gi0/1: PD removed
+Jan 9 20:35:36 HHHHHHHH _EVENT_ID_: Jan 9 20:35:35.241 CET: %PIM-6-INVALID_RP_JOIN: VRF nat-public: Received (*, 224.0.1.40) Join from XXX.XXX.XXX.XXX for invalid RP XXX.XXX.XXX.XXX
+Jan 9 20:35:13 HHHHHHHH _EVENT_ID_: Jan 9 20:35:13.895 CET: %SPANTREE-2-BLOCK_BPDUGUARD: Received BPDU on port GigabitEthernet1/0/15 with BPDU Guard enabled. Disabling port.
+Jan 9 20:27:54 HHHHHHHH _EVENT_ID_: Jan 9 20:27:53.533 CET: %SEC-6-IPACCESSLOGP: list 110 denied tcp XXX.XXX.XXX.XXX(6000) -> 0.0.0.0(22), 1 packet
+Jan 9 19:51:53 HHHHHHHH _EVENT_ID_: Jan 9 19:51:52.250 CET: %NTP-6-PEERREACH: Peer XXX.XXX.XXX.XXX is reachable
+Jan 9 20:48:31 HHHHHHHH _EVENT_ID_: Jan 9 20:48:30.132 CET: %CRYPTO-6-IKMP_NOT_ENCRYPTED: IKE packet from XXX.XXX.XXX.XXX was not encrypted and it should've been.
+Jan 9 20:48:14 HHHHHHHH _EVENT_ID_: Jan 9 20:48:13.475 CET: %SYS-2-MALLOCFAIL: Memory allocation of 32768 bytes failed from 0x8030F4A8, alignment 0
+Jan 9 20:50:00 HHHHHHHH _EVENT_ID_: Jan 9 20:49:59.412 CET: %DSLSAR-1-DOWNGRADEDBW: PCR and SCR for VCD 1 (0/33) has been reduced to 1344k 1344k due to insufficient upstream bandwidth
+Jan 9 15:39:21 HHHHHHHH _EVENT_ID_: Jan 9 15:39:20.076 CET: %SYS-5-CONFIG_I: Configured from console by UUUUUUUU on vty0 (XXX.XXX.XXX.XXX)
+Jan 9 14:39:50 HHHHHHHH _EVENT_ID_: Jan 9 14:39:49.887 CET: %PARSER-5-CFGLOG_LOGGEDCMD: User:UUUUUUUU logged command:interface _INTERFACE_
+Jan 9 14:25:02 HHHHHHHH _EVENT_ID_: Jan 9 14:25:01.625 CET: %PARSER-5-CFGLOG_LOGGEDCMD: User:UUUUUUUU logged command:switchport access vlan 14
+Jan 9 20:55:27 HHHHHHHH _EVENT_ID_: Jan 9 20:55:26.295 CET: %FAN-3-FAN_OK: Fan 4 had earlier reported a rotation error. It is ok now
+Jan 9 15:10:31 HHHHHHHH _EVENT_ID_: Jan 9 15:10:30.812 CET: %SW_MATM-4-MACFLAP_NOTIF: Host 449b.0152.f79a in vlan 22 is flapping between port Gi4/0/2 and port Gi4/0/20
+Aug 19 11:57:01 HHHHHHHH _EVENT_ID_: Aug 19 11:57:00.737 CEST: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: UUUUUUUU] [Source: XXX.XXX.XXX.XXX] [localport: 22] at 11:57:00 CEST Tue Aug 19 2014
+Aug 19 11:51:46 HHHHHHHH _EVENT_ID_: Aug 19 11:51:45.714 CEST: %LDP-5-NBRCHG: LDP Neighbor XXX.XXX.XXX.XXX:0 (1) is UP
+Aug 19 11:51:46 HHHHHHHH _EVENT_ID_: Aug 19 11:51:45.666 CEST: %PIM-5-NBRCHG: neighbor XXX.XXX.XXX.XXX UP on interface _INTERFACE_
+Aug 19 11:50:36 HHHHHHHH _EVENT_ID_: Aug 19 11:50:35.221 CEST: %LDP-5-NBRCHG: LDP Neighbor XXX.XXX.XXX.XXX:0 (1) is DOWN (Interface not operational)
