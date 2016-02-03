@@ -4,6 +4,10 @@ Jan 9 20:36:58 HHHHHHHH _EVENT_ID_: Jan 9 20:36:57.905 CET: %SNMP-3-AUTHFAIL: Au
 Jan 9 20:28:28 HHHHHHHH _EVENT_ID_: Jan 9 20:28:27.876 CET: %ENVIRONMENT-2-FAN_FAULT: System Fault: FAN FAULT is detected.
 Jan 9 20:33:51 HHHHHHHH _EVENT_ID_: Jan 9 20:33:50.379 CET: %HARDWARE-1-TCAM_ERROR: Found error in HFTM TCAM Space and not able to recover the error
 Jan 9 20:36:01 HHHHHHHH _EVENT_ID_: Jan 9 20:36:00.212 CET: %SFF8472-5-THRESHOLD_VIOLATION: Gi0/9: Rx power low warning; Operating value: -22.7 dBm, Threshold value: -19.0 dBm.
+Jan 9 20:37:01 HHHHHHHH _EVENT_ID_: Jan 9 20:36:00.212 CET: %SFF8472-5-THRESHOLD_VIOLATION: Gi1/0/24: Rx power low warning; Operating value: -29.7 dBm, Threshold value: -29.0 dBm.
+Jan 9 20:38:01 HHHHHHHH _EVENT_ID_: Jan 9 20:36:00.212 CET: %SFF8472-5-THRESHOLD_VIOLATION: Te1/1/9: Rx power low warning; Operating value: -40.7 dBm, Threshold value: -39.0 dBm.
+Jan 9 20:38:01 HHHHHHHH _EVENT_ID_: Jan 9 20:36:00.212 CET: %SFF8472-5-THRESHOLD_VIOLATION: Te1/0/1: Temperature low alarm; Operating value: -101.6 C, Threshold value:  -10.0 C.
+Jan 9 20:38:01 HHHHHHHH _EVENT_ID_: Jan 9 20:36:00.212 CET: %SFF8472-5-THRESHOLD_VIOLATION: Te1/2/1: Temperature low alarm; Operating value: -101.6 C, Threshold value:  -10.0 C.
 Jan 9 20:37:19 HHHHHHHH _EVENT_ID_: Jan 9 20:37:18.365 CET: %FAN-3-FAN_FAILED: Fan 4 had a rotation error reported.
 Jan 9 20:37:18 HHHHHHHH _EVENT_ID_: Jan 9 20:37:17.797 CET: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on _INTERFACE_ (not half duplex), with SEP001AD460E097 Port 1 (half duplex).
 Jan 9 20:37:17 HHHHHHHH _EVENT_ID_: Jan 9 20:37:17.353 CET: %ILPOWER-5-IEEE_DISCONNECT: Interface Gi0/1: PD removed
