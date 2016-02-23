@@ -39,7 +39,7 @@
 </ch:Event>
 <ch:CustomerData>
 <ch:UserData>
-<ch:Email>mibj@statsbygg.no</ch:Email>
+<ch:Email>user@example.com</ch:Email>
 </ch:UserData>
 <ch:ContractData>
 <ch:CustomerId></ch:CustomerId>
@@ -50,7 +50,7 @@
 <ch:SystemInfo>
 <ch:Name>HHHHHHHH</ch:Name>
 <ch:Contact>IKT Drift</ch:Contact>
-<ch:ContactEmail>mibj@statsbygg.no</ch:ContactEmail>
+<ch:ContactEmail>user@example.com</ch:ContactEmail>
 <ch:ContactPhoneNumber></ch:ContactPhoneNumber>
 <ch:StreetAddress></ch:StreetAddress>
 </ch:SystemInfo>
@@ -367,7 +367,7 @@ HHHHHHHH#]]></aml-block:Data>
 </ch-inv:Event>
 <ch-inv:CustomerData>
 <ch-inv:UserData>
-<ch-inv:Email>mibj@statsbygg.no</ch-inv:Email>
+<ch-inv:Email>user@example.com</ch-inv:Email>
 </ch-inv:UserData>
 <ch-inv:ContractData>
 <ch-inv:CustomerId></ch-inv:CustomerId>
@@ -378,7 +378,7 @@ HHHHHHHH#]]></aml-block:Data>
 <ch-inv:SystemInfo>
 <ch-inv:Name>HHHHHHHH</ch-inv:Name>
 <ch-inv:Contact>IKT Drift</ch-inv:Contact>
-<ch-inv:ContactEmail>mibj@statsbygg.no</ch-inv:ContactEmail>
+<ch-inv:ContactEmail>user@example.com</ch-inv:ContactEmail>
 <ch-inv:ContactPhoneNumber></ch-inv:ContactPhoneNumber>
 <ch-inv:StreetAddress></ch-inv:StreetAddress>
 </ch-inv:SystemInfo>
