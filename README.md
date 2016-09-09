@@ -29,7 +29,7 @@
 
 | Author | Mikael Bjerkeland |
 | --- | --- |
-| App Version | 2.3.2 |
+| App Version | 2.3.3 |
 | Vendor Products | Cisco Catalyst, ASR, ISR, Nexus, CRS and other IOS based switches, Wireless LAN Controller |
 | Has index-time operations | True |
 | Create an index | False |
@@ -45,11 +45,11 @@ No scripts or binaries are included.
 
 ##### About this release
 
-Version 2.3.2 of the Cisco Networks Add-on is compatible with:
+Version 2.3.3 of the Cisco Networks Add-on is compatible with:
 
 | Splunk Enterprise versions | 5.0.x, 6.x |
 | --- | --- |
-| CIM | 4.3, 4.2, 4.1, 4.0 |
+| CIM | 4.5, 4.4, 4.3, 4.2, 4.1, 4.0 |
 | Platforms | Platform independent |
 | Vendor Products | Cisco Catalyst, ASR, ISR, Nexus, CRS and other IOS based switches, Wireless LAN Controller |
 | Lookup file changes | Added cisco_ios_icmp_code.csv |
@@ -62,19 +62,21 @@ Cisco Networks Add-on includes the following new features:
 
 ##### Fixed issues
 
-Version 2.3.2 of the Cisco Networks Add-on fixes the following issues:
+Version 2.3.3 of the Cisco Networks Add-on fixes the following issues:
 
 - Improvements to the general extractions contributed by m4dc0w
+- Better handling of NGFW events
+- Fixes for IOS-XE extractions
 
 ##### Known issues
 
-Version 2.3.2 of the Cisco Networks Add-on has the following known issues:
+Version 2.3.3 of the Cisco Networks Add-on has the following known issues:
 
 - None known
 
 ##### Third-party software attributions
 
-Version 2.3.2 of the Cisco Networks Add-on incorporates the following third-party software or libraries.
+Version 2.3.3 of the Cisco Networks Add-on incorporates the following third-party software or libraries.
 
 - None
 
