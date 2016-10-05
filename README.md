@@ -67,6 +67,7 @@ Version 2.3.3 of the Cisco Networks Add-on fixes the following issues:
 - Improvements to the general extractions contributed by m4dc0w
 - Better handling of NGFW events
 - Fixes for IOS-XE extractions
+- Extra Nexus VIM IF_ATTACHED extraction (Thanks rsethre)
 
 ##### Known issues
 
