@@ -64,6 +64,7 @@ Cisco Networks Add-on includes the following new features:
 
 Version 2.3.5 of the Cisco Networks Add-on fixes the following issues:
 
+- Removed cisco_ios_apptype lookup as it is just a static value. Replaced with an eval instead.
 - Brought back the optional index force transform
 - Improvements to the general extractions contributed by m4dc0w
 - Better handling of NGFW events
@@ -234,14 +235,6 @@ Maps a vendor action to a CIM compliant action.
 
 - File location: lookups/cisco_ios_actions.csv
 - Lookup fields: vendor_action, action
-- Lookup contents: See the file contents
-
-**cisco_ios_apptype.csv**
-
-Provides an app field for CIM compliance.
-
-- File location: lookups/cisco_ios_apptype.csv
-- Lookup fields: sourcetype, app
 - Lookup contents: See the file contents
 
 **cisco_ios_icmp_code.csv**
