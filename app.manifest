@@ -1,0 +1,78 @@
+{
+  "schemaVersion": "1.0.0", 
+  "info": {
+    "title": "Cisco Networks Add-on", 
+    "id": {
+      "group": null, 
+      "name": "TA-cisco_ios", 
+      "version": "2.3.5"
+    }, 
+    "author": [
+      {
+        "name": "Mikael Bjerkeland", 
+        "email": "mikael@bjerkeland.com", 
+        "company": "Datametrix AS"
+      }
+    ], 
+    "releaseDate": null, 
+    "description": "Data input and field extractions for Cisco IOS, XE, XR, NX-OS and Cisco WLAN Controller", 
+    "classification": {
+      "intendedAudience": null, 
+      "categories": [], 
+      "developmentStatus": null
+    }, 
+    "commonInformationModels": null, 
+    "license": {
+      "name": null, 
+      "text": null, 
+      "uri": null
+    }, 
+    "privacyPolicy": {
+      "name": null, 
+      "text": null, 
+      "uri": null
+    }, 
+    "releaseNotes": {
+      "name": null, 
+      "text": "./README.md", 
+      "uri": null
+    }
+  }, 
+  "dependencies": null, 
+  "tasks": null, 
+  "inputGroups": null, 
+  "incompatibleApps": null, 
+  "platformRequirements": null,
+# The following optional sections can be customized and added to the main manifest:
+#
+# Lists the app dependencies and version requirements
+# "dependencies": {
+#     "<app-group>:<app-name>": {
+#         "version": "*",
+#         "package": "<source-package-location>"
+#     }
+# }
+#
+# Lists the inputs that belong on the search head rather than forwarders
+# "tasks": []
+#
+# Lists the possible input groups with app dependencies, and inputs that should be included
+ "inputGroups": {
+     "Syslog input": {
+	 "description": "Monitor Cisco IOS variant syslogs",
+         "inputs": ["udp://514"]
+     }
+ }
+#
+# Lists the app IDs that cannot be installed on the system alongside this app
+# "incompatibleApps": {
+#     "<app-group>:<app-name>": "<version>"
+# }
+#
+# Specify the platform version requirements for this app
+# "platformRequirements": {
+#     "splunk": {
+#         "Enterprise": "<version>"
+#     }
+# }
+}
