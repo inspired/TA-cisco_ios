@@ -52,3 +52,15 @@ Feb 3 11:53:07 HHHHHHHH _EVENT_ID_: Feb 3 11:53:07.125 CET: %INTERFACE_VLAN-5-IF
 Feb 3 11:53:08 HHHHHHHH _EVENT_ID_: Feb 3 11:53:08.125 CET: %PORT-2-IF_DOWN_ERROR_DISABLED: %$VSAN 1%$ Interface fc1/6 is down (Error disabled)
 Feb 3 11:53:09 HHHHHHHH _EVENT_ID_: Feb 3 11:53:09.125 CET: %PORT-2-IF_DOWN_ERROR_DISABLED: %$VSAN 1%$ Interface fc1/5 is down (Error disabled)
 Feb 3 11:53:10 HHHHHHHH _EVENT_ID_: Feb 3 11:53:10.125 CET: %VIM-5-IF_DOWN_ERROR_DISABLED: Interface Vethernet1 is down (Error disabled)
+Jan 16 07:54:52 HHHHHHHH _EVENT_ID_: Jan 16 07:54:52.248 CET: %STP-6-PORT_RANGE_STATE: new_state=forwarding interface=port-channel20 vlan=1562
+Jan 16 07:54:52 HHHHHHHH _EVENT_ID_: Jan 16 07:54:52.440 CET: %STP-6-PORT_RANGE_ROLE: new_role=designated interface=port-channel20 vlan=1562
+Jan 16 08:34:04 HHHHHHHH _EVENT_ID_: Jan 16 08:34:04.029 CET: %STP-6-PORT_RANGE_DELETED: Interface _INTERFACE_ removed from vlan=13-14,16,20,158,400,909,1320,2502,2812,2815,2858
+Jan 16 08:33:04 HHHHHHHH _EVENT_ID_: Jan 16 08:33:04.018 CET: %STP-6-PORT_RANGE_ADDED: Interface _INTERFACE_ added to vlan=13-14,16,20,158,400,909,1320,2502,2812,2815,2858 with cost 2000, priority 128, link-type P2p
+Jan 16 06:37:32 HHHHHHHH _EVENT_ID_: Jan 16 06:37:32.739 CET: %STP-2-DISPUTE_DETECTED: Dispute detected on port port-channel20 on VLAN2832.
+Jan 16 06:37:26 HHHHHHHH _EVENT_ID_: Jan 16 06:37:26.738 CET: %STP-2-DISPUTE_CLEARED: Dispute resolved for port port-channel20 on VLAN2832
+Jan 16 00:36:29 HHHHHHHH _EVENT_ID_: Jan 16 00:36:29.266 CET: %FWM-2-STM_LOOP_DETECT: Loops detected in the network for mac 0050.567d.fb8d among ports _INTERFACESHORT_ and _INTERFACESHORT_ vlan 21 - Disabling dynamic learn notifications for 180 seconds
+Jan 16 00:36:30 HHHHHHHH _EVENT_ID_: Jan 16 00:36:30.266 CET: %SPANTREE-5-EXTENDED_SYSID: Extended SysId enabled for type vlan
+Jan 16 00:36:31 HHHHHHHH _EVENT_ID_: Jan 16 00:36:31.266 CET: %SPANTREE-SP-2-LOOPGUARD_BLOCK: Loop guard blocking port Port-channel6 on VLAN1485.
+Jan 16 00:36:32 HHHHHHHH _EVENT_ID_: Jan 16 00:36:32.266 CET: %SPANTREE-SP-2-LOOPGUARD_UNBLOCK: Loop guard unblocking port Port-channel6 on VLAN1485.
+Jan 16 00:36:33 HHHHHHHH _EVENT_ID_: Jan 16 00:36:33.266 CET: %SPANTREE-6-PORT_STATE: Port _INTERFACESHORT_ instance 205 moving from forwarding to disabled (HHHHHHHH)
+Jan 16 00:36:34 HHHHHHHH _EVENT_ID_: Jan 16 00:36:34.266 CET: %SPANTREE-7-PORTDEL_SUCCESS: _INTERFACE_ deleted from Vlan 205 (HHHHHHHH)
