@@ -30,7 +30,7 @@
 | Author | Mikael Bjerkeland |
 | --- | --- |
 | App Version | 2.4.0 |
-| Vendor Products | Cisco Catalyst, ASR, ISR, Nexus, CRS and other IOS based switches, Wireless LAN Controller |
+| Vendor Products | Cisco Catalyst, ASR, ISR, Nexus, CRS and other IOS based switches, Wireless LAN Controller, ACI |
 | Has index-time operations | True |
 | Create an index | False |
 | Implements summarization | False |
