@@ -244,7 +244,7 @@
 "F0361","This event occurs when the tree diameter of a Mcast tree is deemed large.",
 "F0391","This fault usually occurs when ISIS interface specific initaliztion fails.","Try shutting down and restarting the ISIS instance. If the above actions did not resolve the issue,generate the show tech-support file and contact Cisco TAC. "
 "F0394","This fault usually occurs when ISIS interface specific protocol handling fails","Try shutting down and restarting the ISIS instance. If the above actions did not resolve the issue,generate the show tech-support file and contact Cisco TAC. "
-"F0396","This fault usually occurs when ISIS detects duplicate system Id in the network.","Please change the \"net\" configured for this ISIS instance or on the peer-system. "
+"F0396","This fault usually occurs when ISIS detects duplicate system Id in the network.","Please change the 'net' configured for this ISIS instance or on the peer-system. "
 "F0395","This fault usually occurs when ISIS High-Availability recovery fails.","System will continue in grace-ful switchover or cold-start mode as fallback mode. Please generate the show tech-support file and contact Cisco TAC if the condition persists. "
 "F0378","","Try shutting down and restarting the ISIS instance. If the above does not work try rebooting the switch. If the above actions did not resolve the issue,generate the show tech-support file and contact Cisco TAC. "
 "F0377","This fault occurs when the isis instance memory alert is critical",
