@@ -445,7 +445,7 @@
 "F0522","This event occurs when peer keep-alive receive has failed.",
 "F0520","This event occurs when peer keep-alive send has failed",
 "F1228","This fault occurs when Contract is incompletely / incorrectly configured.","Look at configIssues Verify the configuration is correct / complete If the above action did not resolve the issue,contact Cisco TAC. "
-"F0418","This fault occurs when the vzAny is associated to a vzBrCP of scope != context","Look at BrCPs associated to this contract Verify that all BrCPs have scope of "context" If the above action did not resolve the issue,contact Cisco TAC. "
+"F0418","This fault occurs when the vzAny is associated to a vzBrCP of scope != context","Look at BrCPs associated to this contract Verify that all BrCPs have scope of 'context' If the above action did not resolve the issue,contact Cisco TAC. "
 "F1112","The object refers to an object that was not found.","Make sure that referenced object exists and the name is spelled correctly in the relation object. "
 "F1115","The object refers to an object that was not found.","Make sure that referenced object exists and the name is spelled correctly in the relation object. "
 "F1117","The object refers to an object that was not found.","Make sure that referenced object exists and the name is spelled correctly in the relation object. "
