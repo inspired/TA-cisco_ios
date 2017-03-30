@@ -1,4 +1,4 @@
-"fault_code","vendor_description","vendor_recommended_action"
+"fault_code","vendor_explanation","vendor_recommended_action"
 "F0884","The object refers to an object that was not found.","Make sure that referenced object exists and the name is spelled correctly in the relation object"
 "F1429","The object refers to an object that was not found","Make sure that referenced object exists and the name is spelled correctly in the relation object."
 "F1259","This fault occurs when policy manager fails to activate a management rule due to software programming failure","1.Look at any configuration issues 2.Verify the configuration is correct/complete  3.If the above are fine,remove unsued rules and retry       "
