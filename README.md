@@ -87,13 +87,7 @@ Version 2.4.0 of the Cisco Networks Add-on incorporates the following third-part
 
 ##### Support and resources
 
-**The Cisco Networks Add-on for Splunk Enterprise is supported for all users who have a Splunk Support Contract or Cisco Service Contract with Datametrix**
-
-* Hours: Mon-Fri 08:00 - 16:00 Central European Time
-* Observed Holidays: All Norwegian Public Holidays, December 23 to January 2, Palm Sunday to Easter Monday.
-* Support URL: https://github.com/inspired/TA-cisco_ios/issues
-
-**For users who are not customers of Datametrix, best effort support is available via Splunk Answers**
+**This app is community supported on a best effort basis. In case you have needs for professional support billed by the hour, please contact the author.
 
 * Access questions and answers specific to the Cisco Networks Add-on at http://answers.splunk.com/app/questions/1467.html
 
