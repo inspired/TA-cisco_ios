@@ -174,26 +174,8 @@ Unknown
 
 1. Install in $SPLUNK_HOME/etc/apps/TA-cisco_ios
 
-1. Create a UDP input on one of your Splunk servers or a forwarder with sourcetype set to *syslog* or *cisco:ios*. A regex match will be performed to rewrite the events to the cisco:ios sourcetype.
-2. Configure your Cisco devices to send their syslogs to the UDP input created in step 2 with logging level informational.
-
-1. Step 4 to 6: OPTIONAL for Smart Call Home support
-
-1. OPTIONAL - Add a new TCP data input on a port of your choice, set sourcetype to Cisco:SmartCallHome
-
-1. OPTIONAL - On your Cisco devices:
-
-        service call-home
-        call-home
-        contact-email-addr YOUR.EMAIL@ADDR.ESS
-        site-id "YOUR_SITE_NAME"
-        profile "Splunk"
-        destination transport-method http
-        destination address http http://SPLUNK.SERVER.IP:TCP_PORT_FROM_STEP_4
-        subscribe-to-alert-group diagnostic severity debug
-        subscribe-to-alert-group environment severity debug
-        subscribe-to-alert-group inventory
-        subscribe-to-alert-group inventory periodic daily 22:30
+2. Create a UDP input on one of your Splunk servers or a forwarder with sourcetype set to *syslog* or *cisco:ios*. A regex match will be performed to rewrite the events to the cisco:ios sourcetype.
+3. Configure your Cisco devices to send their syslogs to the UDP input created in step 2 with logging level informational.
 
 4. Restart Splunk
 
@@ -206,14 +188,12 @@ This app provides search-time knowledge for the following types of data from Cis
 **Search-time**
 
 - cisco:ios - Syslog events from your devices
-- Cisco:SmartCallHome - Inventory data from your devices
 
 These data types support the following Common Information Model data models:
 
 | Source Type | CIM Data Models |
 | --- | --- |
 | cisco:ios | Change Analysis<br/>Authentication<br/>Network Traffic<br/>|
-| Cisco:SmartCallHome | Inventory|
 
 
 ### Lookups
