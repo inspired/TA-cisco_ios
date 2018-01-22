@@ -5,13 +5,13 @@
     "id": {
       "group": null, 
       "name": "TA-cisco_ios", 
-      "version": "2.3.5"
+      "version": "2.5.0"
     }, 
     "author": [
       {
         "name": "Mikael Bjerkeland", 
         "email": "mikael@bjerkeland.com", 
-        "company": "Datametrix AS"
+        "company": ""
       }
     ], 
     "releaseDate": null, 
