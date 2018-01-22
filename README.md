@@ -32,7 +32,7 @@
 
 | Author | Mikael Bjerkeland |
 | --- | --- |
-| App Version | 2.4.0 |
+| App Version | 2.5.0 |
 | Vendor Products | Cisco Catalyst, ASR, ISR, Nexus, CRS and other IOS based switches, Wireless LAN Controller, ACI |
 | Has index-time operations | True |
 | Create an index | False |
@@ -48,11 +48,11 @@ No scripts or binaries are included.
 
 ##### About this release
 
-Version 2.4.0 of the Cisco Networks Add-on is compatible with:
+Version 2.5.0 of the Cisco Networks Add-on is compatible with:
 
-| Splunk Enterprise versions | 5.0.x, 6.x |
+| Splunk Enterprise versions | 5.0.x, 6.*, 7.* |
 | --- | --- |
-| CIM | 4.6, 4.5, 4.4, 4.3, 4.2, 4.1, 4.0 |
+| CIM | 4.* |
 | Platforms | Platform independent |
 | Vendor Products | Cisco Catalyst, ASR, ISR, Nexus, CRS and other IOS based switches, Wireless LAN Controller, ACI |
 | Lookup file changes | Added cisco_ios_aci_fault_codes, Removed cisco_ios_apptype |
@@ -66,7 +66,7 @@ Cisco Networks Add-on includes the following new features:
 
 ##### Fixed issues
 
-Version 2.4.0 of the Cisco Networks Add-on fixes the following issues:
+Version 2.5.0 of the Cisco Networks Add-on fixes the following issues:
 
 - Removed cisco_ios_apptype lookup as it is just a static value. Replaced with an eval instead.
 - Brought back the optional index force transform
@@ -78,13 +78,13 @@ Version 2.4.0 of the Cisco Networks Add-on fixes the following issues:
 
 ##### Known issues
 
-Version 2.4.0 of the Cisco Networks Add-on has the following known issues:
+Version 2.5.0 of the Cisco Networks Add-on has the following known issues:
 
 - None known
 
 ##### Third-party software attributions
 
-Version 2.4.0 of the Cisco Networks Add-on incorporates the following third-party software or libraries.
+Version 2.5.0 of the Cisco Networks Add-on incorporates the following third-party software or libraries.
 
 - None
 
@@ -120,7 +120,7 @@ Cisco Networks Add-On supports the following server platforms in the versions su
 
 To function properly, Cisco Networks Add-on requires the following software:
 
-- Optional: Cisco Networks App, 2.4.0 or higher (for dashboards etc)
+- Optional: Cisco Networks App, 2.5.0 or higher (for dashboards etc)
 
 #### Splunk Enterprise system requirements
 
