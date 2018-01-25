@@ -468,7 +468,7 @@
 "F671803","This fault is raised FSM for Controller Remove operation fails.","Check if there are any FSM stage failures Perform the suggested Actions to correct stage failures If the above actions did not resolve the issue,collect tech-support file and contact Cisco TAC. "
 "F16438","This fault is raised when Get Controller Time Stage fails","Please collect tech-support file and contact Cisco TAC"
 "F1445","This fault occurs when significant number of packet drops are detected by atomic counters","If you see this fault,check the network configuration in the packet path where this Atomic counter policy is configured "
-"F1446 ","This fault occurs when small number of packet drops are detected by atomic counters","If you see this fault,check the network configuration in the packet path where this Atomic counter policy is configured"
+"F1446","This fault occurs when small number of packet drops are detected by atomic counters","If you see this fault,check the network configuration in the packet path where this Atomic counter policy is configured"
 "F1447","This fault occurs when significant number of excess packets are detected by atomic counters","If you see this fault,check the network configuration in the packet path where this Atomic counter policy is configured"
 "F1448","This fault occurs when small number of excess packets are detected by atomic counters","If you see this fault,check the network configuration in the packet path where this Atomic counter policy is configured "
 "F1451","This fault occurs when psu is shut down","Connect a power supply to this PSU If the above actions did not resolve the issue,create a show tech-support file and contact Cisco TAC "
