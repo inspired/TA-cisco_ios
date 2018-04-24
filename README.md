@@ -162,7 +162,7 @@ Follow these steps to install the app in a single server instance of Splunk Ente
 
 **Install to forwarders**
 
-This app should not be installed on forwarders.
+This add-on should not be installed on forwarders unless you are monitoring your logs using the Heavy Forwarder. In that case, install this add-on on your Heavy Forwarder in addition to your indexers and search heads
 
 ##### Deploy to distributed deployment with Search Head Pooling
 Follow the same steps as *Install to search head*.
