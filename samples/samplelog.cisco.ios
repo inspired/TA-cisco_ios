@@ -77,3 +77,8 @@ Jan 16 00:36:44 HHHHHHHH _EVENT_ID_: Jan 16 00:36:44.266 CET: %CDP-5-NEIGHBOR_AD
 Jan 16 00:36:45 HHHHHHHH _EVENT_ID_: Jan 16 00:36:45.266 CET: %CDP-5-NEIGHBOR_REMOVED: CDP Neighbor HHHHHHHH(JAxxxxxxxJB) on port _INTERFACE_ has been removed
 Jan 16 00:36:45 HHHHHHHH _EVENT_ID_: Jan 16 00:36:45.266 CET: %AUTHPRIV-3-SYSTEM_MSG: pam_aaa:Authentication failed from XXX.XXX.XXX.XXX - sshd[123456]
 Jan 16 00:36:45 HHHHHHHH _EVENT_ID_: Jan 16 00:36:45.266 CET: %AUTHPRIV-3-SYSTEM_MSG: pam_aaa:Authentication failed for user UUUUUUU from XXX.XXX.XXX.XXX - dcos_sshd[23456]
+Jan 16 00:36:45 HHHHHHHH _EVENT_ID_: Jan 16 00:36:45.266 CET: %SSH-5-SSH2_USERAUTH: User 'UUUUUUUU' authentication for SSH2 Session from XXX.XXX.XXX.XXX (tty = 1) using crypto cipher 'aes128-cbc', hmac 'hmac-sha1' Succeeded
+Jan 16 00:36:45 HHHHHHHH _EVENT_ID_: Jan 16 00:36:45.266 CET: %SSH-5-SSH2_USERAUTH: User 'UUUUUUUU' authentication for SSH2 Session from XXX.XXX.XXX.XXX (tty = 3) using crypto cipher 'aes128-cbc', hmac 'hmac-sha1' Failed
+Jan 16 00:36:45 HHHHHHHH _EVENT_ID_: Jan 16 00:36:45.266 CET: %SSH-5-SSH2_USERAUTH: User '' authentication for SSH2 Session from XXX.XXX.XXX.XXX (tty = 0) using crypto cipher 'aes128-cbc', hmac 'hmac-sha1' Failed
+Jan 16 00:36:45 HHHHHHHH _EVENT_ID_: Jan 16 00:36:45.266 CET: %SSH-5-SSH2_CLOSE: SSH2 Session from XXX.XXX.XXX.XXX (tty = 3) for user 'UUUUUUUU' using crypto cipher 'aes128-cbc', hmac 'hmac-sha1' closed
+Jan 16 00:36:45 HHHHHHHH _EVENT_ID_: Jan 16 00:36:45.266 CET: %SSH-5-SSH2_SESSION: SSH2 Session request from XXX.XXX.XXX.XXX (tty = 4) using crypto cipher 'aes128-cbc', hmac 'hmac-sha1' Succeeded
