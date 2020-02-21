@@ -25,8 +25,8 @@ Jan 9 20:48:31 HHHHHHHH _EVENT_ID_: Jan 9 20:48:30.132 CET: %CRYPTO-6-IKMP_NOT_E
 Jan 9 20:48:14 HHHHHHHH _EVENT_ID_: Jan 9 20:48:13.475 CET: %SYS-2-MALLOCFAIL: Memory allocation of 32768 bytes failed from 0x8030F4A8, alignment 0
 Jan 9 20:50:00 HHHHHHHH _EVENT_ID_: Jan 9 20:49:59.412 CET: %DSLSAR-1-DOWNGRADEDBW: PCR and SCR for VCD 1 (0/33) has been reduced to 1344k 1344k due to insufficient upstream bandwidth
 Jan 9 15:39:21 HHHHHHHH _EVENT_ID_: Jan 9 15:39:20.076 CET: %SYS-5-CONFIG_I: Configured from console by UUUUUUUU on vty0 (XXX.XXX.XXX.XXX)
-Jan 9 14:39:50 HHHHHHHH _EVENT_ID_: Jan 9 14:39:49.887 CET: %PARSER-5-CFGLOG_LOGGEDCMD: User:UUUUUUUU logged command:interface _INTERFACE_
-Jan 9 14:25:02 HHHHHHHH _EVENT_ID_: Jan 9 14:25:01.625 CET: %PARSER-5-CFGLOG_LOGGEDCMD: User:UUUUUUUU logged command:switchport access vlan 14
+Jan 9 14:39:50 HHHHHHHH _EVENT_ID_: Jan 9 14:39:49.887 CET: %PARSER-5-CFGLOG_LOGGEDCMD: User:UUUUUUUU  logged command:interface _INTERFACE_
+Jan 9 14:25:02 HHHHHHHH _EVENT_ID_: Jan 9 14:25:01.625 CET: %PARSER-5-CFGLOG_LOGGEDCMD: User:UUUUUUUU  logged command:switchport access vlan 14
 Jan 9 20:55:27 HHHHHHHH _EVENT_ID_: Jan 9 20:55:26.295 CET: %FAN-3-FAN_OK: Fan 4 had earlier reported a rotation error. It is ok now
 Jan 9 15:10:31 HHHHHHHH _EVENT_ID_: Jan 9 15:10:30.812 CET: %SW_MATM-4-MACFLAP_NOTIF: Host 449b.0152.f79a in _LOGICALINTERFACE_ is flapping between port _INTERFACESHORT_ and port _INTERFACESHORT_
 Jan 9 15:10:31 HHHHHHHH _EVENT_ID_: Jan 9 15:10:30.812 CET: %SW_MATM-4-MACFLAP_NOTIF: Host 9990.0aba.caab in _LOGICALINTERFACE_ is flapping between port _INTERFACESHORT_ and port _INTERFACESHORT_
@@ -39,9 +39,9 @@ Aug 19 11:51:46 HHHHHHHH _EVENT_ID_: Aug 19 11:51:45.666 CEST: %PIM-5-NBRCHG: ne
 Aug 19 11:50:36 HHHHHHHH _EVENT_ID_: Aug 19 11:50:35.221 CEST: %LDP-5-NBRCHG: LDP Neighbor XXX.XXX.XXX.XXX:0 (1) is DOWN (Interface not operational)
 Aug 19 15:50:36 HHHHHHHH _EVENT_ID_: Feb  3 10:33:34.899 CET: %SEC-6-IPACCESSLOGP: list TEK-OUT denied udp XXX.XXX.XXX.XXX(_PORT_NUMBER_) -> XXX.XXX.XXX.XXX(_PORT_NUMBER_), 1 packet
 Aug 19 17:51:36 HHHHHHHH _EVENT_ID_: Feb  3 10:33:34.899 CET: %SEC-6-IPACCESSLOGP: list DenyRule denied tcp XXX.XXX.XXX.XXX(_PORT_NUMBER_) -> XXX.XXX.XXX.XXX(_PORT_NUMBER_), 1 packet
-Jan 9 14:25:01 HHHHHHHH _EVENT_ID_: Jan 9 14:25:01.625 CET: %PARSER-5-CFGLOG_LOGGEDCMD: User:UUUUUUUU logged command:no interface _LOGICALINTERFACE_
-Jan 9 14:25:02 HHHHHHHH _EVENT_ID_: Jan 9 14:25:02.625 CET: %PARSER-5-CFGLOG_LOGGEDCMD: User:UUUUUUUU logged command:no username admin
-Jan 9 14:25:03 HHHHHHHH _EVENT_ID_: Jan 9 14:25:03.625 CET: %PARSER-5-CFGLOG_LOGGEDCMD: User:UUUUUUUU logged command:enable secret *****
+Jan 9 14:25:01 HHHHHHHH _EVENT_ID_: Jan 9 14:25:01.625 CET: %PARSER-5-CFGLOG_LOGGEDCMD: User:UUUUUUUU  logged command:no interface _LOGICALINTERFACE_
+Jan 9 14:25:02 HHHHHHHH _EVENT_ID_: Jan 9 14:25:02.625 CET: %PARSER-5-CFGLOG_LOGGEDCMD: User:UUUUUUUU  logged command:no username admin
+Jan 9 14:25:03 HHHHHHHH _EVENT_ID_: Jan 9 14:25:03.625 CET: %PARSER-5-CFGLOG_LOGGEDCMD: User:UUUUUUUU  logged command:enable secret *****
 Jan 9 14:25:04 HHHHHHHH _EVENT_ID_: Jan 9 14:25:04.625 CET: %PM-4-ERR_DISABLE: link-flap error detected on _INTERFACESHORT_, putting _INTERFACESHORT_ in err-disable state
 Feb 3 11:53:02 HHHHHHHH _EVENT_ID_: Feb 3 11:53:02.125 CET: %SEC_LOGIN-4-LOGIN_FAILED: Login failed [user: UUUUUUUU] [Source: XXX.XXX.XXX.XXX] [localport: 22] [Reason: Login Authentication Failed] at 11:53:02 CET Wed Feb 3 2016
 Feb 3 11:53:03 HHHHHHHH _EVENT_ID_: Feb 3 11:53:02.125 CET: %SEC_LOGIN-4-LOGIN_FAILED: Login failed [user: admin] [Source: XXX.XXX.XXX.XXX] [localport: 22] [Reason: Login Authentication Failed] at 11:53:02 CET Wed Feb 3 2016
