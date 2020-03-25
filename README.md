@@ -32,7 +32,7 @@
 
 | Author | Mikael Bjerkeland |
 | --- | --- |
-| App Version | 2.5.9 |
+| App Version | 2.6.0 |
 | Vendor Products | Cisco Catalyst, ASR, ISR, Nexus, CRS and other IOS based switches, Wireless LAN Controller, ACI |
 | Has index-time operations | True |
 | Create an index | False |
@@ -48,9 +48,9 @@ No scripts or binaries are included.
 
 ##### About this release
 
-Version 2.5.9 of the Cisco Networks Add-on is compatible with:
+Version 2.6.0 of the Cisco Networks Add-on is compatible with:
 
-| Splunk Enterprise versions | 5.0.x, 6.*, 7.* |
+| Splunk Enterprise versions | 5.0.x, 6.*, 7.*, 8.* |
 | --- | --- |
 | CIM | 4.* |
 | Platforms | Platform independent |
@@ -63,19 +63,19 @@ Cisco Networks Add-on includes the following new features:
 
 ##### Fixed issues
 
-Version 2.5.9 of the Cisco Networks Add-on fixes the following issues:
+Version 2.6.0 of the Cisco Networks Add-on fixes the following issues:
 
-- Removed a lot of FIELDALIAS that are no longer working as of Splunk 7.2
+- Excludes Cisco FTD events from being part of field extractions and sourcetype rewrites
 
 ##### Known issues
 
-Version 2.5.9 of the Cisco Networks Add-on has the following known issues:
+Version 2.6.0 of the Cisco Networks Add-on has the following known issues:
 
 - None known
 
 ##### Third-party software attributions
 
-Version 2.5.9 of the Cisco Networks Add-on incorporates the following third-party software or libraries.
+Version 2.6.0 of the Cisco Networks Add-on incorporates the following third-party software or libraries.
 
 - Icon by Yudha Agung Pribadi (https://www.iconfinder.com/iconsets/networking-icons-1)
 
@@ -111,7 +111,7 @@ Cisco Networks Add-On supports the following server platforms in the versions su
 
 To function properly, Cisco Networks Add-on requires the following software:
 
-- Optional: Cisco Networks App, 2.5.9 or higher (for dashboards etc)
+- Optional: Cisco Networks App, 2.6.0 or higher (for dashboards etc)
 
 #### Splunk Enterprise system requirements
 
