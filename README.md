@@ -236,6 +236,6 @@ Maps a Cisco severity level to a Splunk compatible CIM severity level as well as
 
 ACI fault codes
 
-- File location: lookups/isco_ios_aci_fault_codes.csv
+- File location: lookups/cisco_ios_aci_fault_codes.csv
 - Lookup fields: fault_code, vendor_explanation, vendor_recommended_action
 - Lookup contents: See the file contents
