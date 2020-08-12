@@ -85,3 +85,7 @@ Jan 16 00:36:45 HHHHHHHH _EVENT_ID_: Jan 16 00:36:45.266 CET: %SSH-5-SSH2_SESSIO
 Jan 16 01:15:20 HHHHHHHH _EVENT_ID_: Jan 16 01:15:20.100 CET: %DHCP_SNOOPING-5-DHCP_SNOOPING_UNTRUSTED_PORT: DHCP_SNOOPING drop message on untrusted port, message type: DHCPOFFER, MAC sa: 0014.60f4.8184
 Jan 16 01:21:59 HHHHHHHH _EVENT_ID_: Jan 16 01:21:59.231 CET: %IP_SOURCE_GUARD-4-DENY_INVALID_PACKET: Detected and dropped illegal traffic on port _INTERFACESHORT_ and _LOGICALINTERFACE_, the non-cumulative packet dropped count is 36.
 Jan 16 03:46:32 HHHHHHHH _EVENT_ID_: Jan 16 03:46:32.305 CET: %SW_DAI-4-DHCP_SNOOPING_DENY: 1 Invalid ARPs (Req) on _INTERFACESHORT_, _LOGICALINTERFACE_.([0001.0001.0001/XXX.XXX.XXX.XXX/0000.0000.0000/0.0.0.0/01:53:21 UTC Fri Jan 16 2019])
+Jan 16 03:46:35 HHHHHHHH _EVENT_ID_: Jan 16 03:46:35.200 CET: %SW_DAI-4-PACKET_RATE_EXCEEDED: 16 packets received in 157 milliseconds on Gi1/0/13.
+Jan 16 03:46:35 HHHHHHHH _EVENT_ID_: Jan 16 03:46:35.201 CET: %PM-4-ERR_DISABLE: arp-inspection error detected on Gi1/0/13, putting Gi1/0/13 in err-disable state
+Jan 16 03:46:36 HHHHHHHH _EVENT_ID_: Jan 16 03:46:36.112 CET: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/13, changed state to down
+Jan 16 03:46:37 HHHHHHHH _EVENT_ID_: Jan 16 03:46:37.200 CET: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/13, changed state to down
