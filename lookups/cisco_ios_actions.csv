@@ -54,3 +54,4 @@ new adjacency,unknown,event,
 peer restarted,unknown,event,
 retry limit exceeded,unknown,alert,
 logged command,modified,,filesystem
+err-disable,blocked,,
