@@ -3,6 +3,7 @@ Fa,FastEthernet
 Gi,GigabitEthernet
 Te,TenGigabitEthernet
 Fo,FortyGigabitEthernet
+Et,Ethernet
 Eth,Ethernet
 Vl,Vlan
 FD,Fddi
