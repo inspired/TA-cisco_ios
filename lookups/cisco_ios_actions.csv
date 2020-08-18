@@ -55,3 +55,8 @@ peer restarted,unknown,event,
 retry limit exceeded,unknown,alert,
 logged command,modified,,filesystem
 err-disable,blocked,,
+Packet not authorized on port,blocked,,
+Message unauthorized on port,blocked,,
+IP Theft,blocked,,
+MAC Theft,blocked,,
+MAC_AND_IP Theft,blocked,,
