@@ -102,3 +102,5 @@ Jan 17 10:49:24 HHHHHHHH _EVENT_ID_: Jan 17 10:49:24.382 CET: %TRACKING-5-STATE:
 Jan 17 10:52:22 HHHHHHHH _EVENT_ID_: Jan 17 10:52:22.382 CET: %TRACKING-5-STATE: 3 ip sla 3 reachability Down->Up
 Jan 17 10:55:24 HHHHHHHH _EVENT_ID_: Jan 17 10:55:24.382 CET: %TRACKING-5-STATE: 10 rtr 100 reachability Down->Up
 Jan 17 10:55:22 HHHHHHHH _EVENT_ID_: Jan 17 10:55:22.382 CET: %TRACKING-5-STATE: 10 rtr 100 reachability Up->Down
+Jan 17 16:07:09 HHHHHHHH _EVENT_ID_: Jan 17 16:07:09.331 CET: %HA_EM-6-LOG: route-table-monitor: Route changed: Type: add, Network: 1.1.1.100, Mask/Prefix: 255.255.255.255, Protocol: OSPF, GW: 10.99.99.5, Intf: N/A
+Jan 17 16:07:09 HHHHHHHH _EVENT_ID_: Jan 17 16:07:09.331 CET: %HA_EM-6-LOG: route-table-monitor: Route changed: Type: remove, Network: 1.1.1.100, Mask/Prefix: 255.255.255.255, Protocol: OSPF, GW: 10.99.99.5, Intf: N/A
