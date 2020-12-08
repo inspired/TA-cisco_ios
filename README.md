@@ -65,6 +65,8 @@ Cisco Networks Add-on includes the following new features:
 
 Version 2.7.0 of the Cisco Networks Add-on fixes the following issues:
 
+- Corrections for Splunk Connect for Syslog data ingest
+- Added initial support for Cisco Telemetry data
 - Network Interface short names are now normalized OOTB without macros thanks to Splunk 8.1 EVAL lookups
 - Excludes Cisco FTD events from being part of field extractions and sourcetype rewrites
 - Adds ACI field extraction (for Faults)
