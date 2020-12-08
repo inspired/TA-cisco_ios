@@ -50,7 +50,7 @@ No scripts or binaries are included.
 
 Version 2.6.1 of the Cisco Networks Add-on is compatible with:
 
-| Splunk Enterprise versions | 8.1+ |
+| Splunk Enterprise versions | 7.*, 8.*  |
 | --- | --- |
 | CIM | 4.* |
 | Platforms | Platform independent |
