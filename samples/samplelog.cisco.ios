@@ -105,3 +105,5 @@ Jan 17 10:55:24 HHHHHHHH _EVENT_ID_: Jan 17 10:55:24.382 CET: %TRACKING-5-STATE:
 Jan 17 10:55:22 HHHHHHHH _EVENT_ID_: Jan 17 10:55:22.382 CET: %TRACKING-5-STATE: 10 rtr 100 reachability Up->Down
 Jan 17 16:07:09 HHHHHHHH _EVENT_ID_: Jan 17 16:07:09.331 CET: %HA_EM-6-LOG: route-table-monitor: Route changed: Type: add, Network: 1.1.1.100, Mask/Prefix: 255.255.255.255, Protocol: OSPF, GW: 10.99.99.5, Intf: N/A
 Jan 17 16:07:09 HHHHHHHH _EVENT_ID_: Jan 17 16:07:09.331 CET: %HA_EM-6-LOG: route-table-monitor: Route changed: Type: remove, Network: 1.1.1.100, Mask/Prefix: 255.255.255.255, Protocol: OSPF, GW: 10.99.99.5, Intf: N/A
+Jan 17 22:07:09 HHHHHHHH _EVENT_ID_: Jan 17 22:07:09.331 CET: %PLATFORM-2-MOD_TEMPMINALRM: Xbar-3 reported minor temperature alarm. Sensor=2 Temperature=43 MinThreshold=42
+Jan 17 22:07:09 HHHHHHHH _EVENT_ID_: Jan 17 22:07:09.331 CET: %PLATFORM-2-MOD_TEMPOK: Xbar-3 recovered from minor temperature alarm. Sensor=2 Temperature=41 MinThreshold=42
