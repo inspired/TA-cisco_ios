@@ -160,7 +160,7 @@ Follow the same steps as *Install to search head*.
 ##### Deploy to distributed deployment with Search Head Clustering
 Follow the same steps as *Install to search head*.
 ##### Deploy to Splunk Cloud
-Unknown
+Follow the same steps as *Install to search head*.
 #### Configure Cisco Networks Add-on
 
 1. Install in $SPLUNK_HOME/etc/apps/TA-cisco_ios
