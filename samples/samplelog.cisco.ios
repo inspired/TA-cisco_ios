@@ -107,9 +107,9 @@ Jan 17 16:07:09 HHHHHHHH _EVENT_ID_: Jan 17 16:07:09.331 CET: %HA_EM-6-LOG: rout
 Jan 17 16:07:09 HHHHHHHH _EVENT_ID_: Jan 17 16:07:09.331 CET: %HA_EM-6-LOG: route-table-monitor: Route changed: Type: remove, Network: 1.1.1.100, Mask/Prefix: 255.255.255.255, Protocol: OSPF, GW: 10.99.99.5, Intf: N/A
 Jan 17 22:07:09 HHHHHHHH _EVENT_ID_: Jan 17 22:07:09.331 CET: %PLATFORM-2-MOD_TEMPMINALRM: Xbar-3 reported minor temperature alarm. Sensor=2 Temperature=43 MinThreshold=42
 Jan 17 22:07:09 HHHHHHHH _EVENT_ID_: Jan 17 22:07:09.331 CET: %PLATFORM-2-MOD_TEMPOK: Xbar-3 recovered from minor temperature alarm. Sensor=2 Temperature=41 MinThreshold=42
-Jan 18 02:15:02 HHHHHHHH _EVENT_ID_: Jan 18 02:15:02.100 CET: %HSRP-5-STATECHANGE: _LOGICALINTERFACE_ Grp 1 state Active -> Speak
-Jan 18 02:15:02 HHHHHHHH _EVENT_ID_: Jan 18 02:15:02.100 CET: %HSRP-5-STATECHANGE: _LOGICALINTERFACE_ Grp 1 state Speak -> Standby
-Jan 18 02:15:02 HHHHHHHH _EVENT_ID_: Jan 18 02:15:02.100 CET: %HSRP-5-STATECHANGE: _LOGICALINTERFACE_ Grp 1 state Standby -> Active
-Feb 13 22:50:15 HHHHHHHH _EVENT_ID_: Feb 13 22:50:15.961 CET: %HSRP-5-STATECHANGE: GigabitEthernet0/0 Grp 0 state Standby -> Active
-Feb 13 22:50:15 HHHHHHHH _EVENT_ID_: Feb 13 22:50:18.517 CET: %HSRP-5-STATECHANGE: GigabitEthernet0/0 Grp 0 state Active -> Speak
-Feb 13 22:50:15 HHHHHHHH _EVENT_ID_: Feb 13 22:50:29.701 CET: %HSRP-5-STATECHANGE: GigabitEthernet0/0 Grp 0 state Speak -> Standby
+Jan 18 02:15:02 HHHHHHHH _EVENT_ID_: Jan 18 02:15:02.100 CET: %HSRP-5-STATECHANGE: Vlan221 Grp 1 state Active -> Speak
+Jan 18 02:15:02 HHHHHHHH _EVENT_ID_: Jan 18 02:15:02.100 CET: %HSRP-5-STATECHANGE: Vlan221 Grp 1 state Speak -> Standby
+Jan 18 02:15:02 HHHHHHHH _EVENT_ID_: Jan 18 02:15:02.100 CET: %HSRP-5-STATECHANGE: Vlan221 Grp 1 state Standby -> Active
+Jan 18 22:50:15 HHHHHHHH _EVENT_ID_: Jan 18 22:50:15.961 CET: %HSRP-5-STATECHANGE: GigabitEthernet0/0 Grp 0 state Standby -> Active
+Jan 18 22:50:18 HHHHHHHH _EVENT_ID_: Jan 18 22:50:18.517 CET: %HSRP-5-STATECHANGE: GigabitEthernet0/0 Grp 0 state Active -> Speak
+Jan 18 22:50:29 HHHHHHHH _EVENT_ID_: Jan 18 22:50:29.701 CET: %HSRP-5-STATECHANGE: GigabitEthernet0/0 Grp 0 state Speak -> Standby
