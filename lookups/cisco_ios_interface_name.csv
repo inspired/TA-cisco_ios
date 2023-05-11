@@ -1,6 +1,8 @@
 int_prefix,int_prefix_long
 Fa,FastEthernet
+FastEthernet,FastEthernet
 Gi,GigabitEthernet
+GigabitEthernet,GigabitEthernet
 Tw,TwoGigabitEthernet
 Te,TenGigabitEthernet
 Twe,TwentyFiveGigE
@@ -8,6 +10,7 @@ Fo,FortyGigabitEthernet
 Hu,HundredGigE
 Et,Ethernet
 Eth,Ethernet
+Ethernet,Ethernet
 Vl,Vlan
 FD,Fddi
 PortCh,Port-Channel
