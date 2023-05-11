@@ -1,3 +1,10 @@
++++ 2.7.4 (2023-05-11)
+Added by MrEndo
+Features:
+* Added extractions for %SESSION_MGR messages
+* Added GigabitEthernet,FastEthernet and Ethernet to the interface name lookup
+* Added samples of %SESSION_MGR for eventgen
+
 +++ 2.3.2 (2016-01-14)
 Bug fixes:
 * Improvements to the general extractions contributed by m4dc0w
