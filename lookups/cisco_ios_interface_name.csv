@@ -26,6 +26,7 @@ PosCh,Pos-Channel
 Mul,Multilink
 AT,ATM
 Async,Async
+AppGig,AppGigabitEthernet
 Group-Async,Group-Async
 MFR,MFR
 Di,Dialer
