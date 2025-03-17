@@ -121,170 +121,170 @@ Jan 18 02:15:02 HHHHHHHH _EVENT_ID_: Jan 18 02:15:02.100 CET: %HSRP-5-STATECHANG
 Jan 18 22:50:15 HHHHHHHH _EVENT_ID_: Jan 18 22:50:15.961 CET: %HSRP-5-STATECHANGE: GigabitEthernet0/0 Grp 0 state Standby -> Active
 Jan 18 22:50:18 HHHHHHHH _EVENT_ID_: Jan 18 22:50:18.517 CET: %HSRP-5-STATECHANGE: GigabitEthernet0/0 Grp 0 state Active -> Speak
 Jan 18 22:50:29 HHHHHHHH _EVENT_ID_: Jan 18 22:50:29.701 CET: %HSRP-5-STATECHANGE: GigabitEthernet0/0 Grp 0 state Speak -> Standby
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:53:28.431: beacons 3F7C, time since jammed E40, current E4C, host_timestamp DA2A73EE
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:53:28.431: %DOT11-5-QBSS_INFO: Reset Radio Interface Dot11Radio0,QBSS Value: 100%,Reset can be expected due to harsh RF
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:53:28.451: %LINK-5-CHANGED: Interface Dot11Radio0, changed state to resetPCI reset port 0
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:53:29.759: soap_pci_reconfig_radio: radio id 0
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:53:29.791: %LINEPROTO-5-UPDOWN: Line protocol on Interface Dot11Radio0, changed state to down
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:53:29.791: %CLEANAIR-6-STATE: Slot 0 down
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:53:34.695: %LINK-6-UPDOWN: Interface Dot11Radio0, changed state to up
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:53:35.695: %LINEPROTO-5-UPDOWN: Line protocol on Interface Dot11Radio0, changed state to up
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:53:51.735: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station e223.254e.90f1 Reason: Sending station has left the BSS
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:53:51.751: %DOT11-6-ASSOC: Interface Dot11Radio1, Station e223.254e.90f1 Associated KEY_MGMT[WPAv2 PSK]
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:53:59.379: %CLEANAIR-6-STATE: Slot 0 enabled
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:54:33.700: beacons 3FD3, time since jammed E81, current E8D, host_timestamp DE0E6E56
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:54:33.700: %DOT11-5-QBSS_INFO: Reset Radio Interface Dot11Radio0,QBSS Value: 100%,Reset can be expected due to harsh RF
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:54:33.720: %LINK-5-CHANGED: Interface Dot11Radio0, changed state to resetPCI reset port 0
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:54:35.028: soap_pci_reconfig_radio: radio id 0
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:54:35.060: %LINEPROTO-5-UPDOWN: Line protocol on Interface Dot11Radio0, changed state to down
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:54:35.060: %CLEANAIR-6-STATE: Slot 0 down
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:54:39.944: %LINK-6-UPDOWN: Interface Dot11Radio0, changed state to up
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:54:40.944: %LINEPROTO-5-UPDOWN: Line protocol on Interface Dot11Radio0, changed state to up
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:54:52.708: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station e223.254e.90f1 Reason: Sending station has left the BSS
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:54:52.724: %DOT11-6-ASSOC: Interface Dot11Radio1, Station e223.254e.90f1 Associated KEY_MGMT[WPAv2 PSK]
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:55:06.407: %CLEANAIR-6-STATE: Slot 0 enabled
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:55:33.946: beacons 4023, time since jammed EBD, current EC9, host_timestamp E1A5BF80
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:55:33.946: %DOT11-5-QBSS_INFO: Reset Radio Interface Dot11Radio0,QBSS Value: 100%,Reset can be expected due to harsh RF
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:55:33.966: %LINK-5-CHANGED: Interface Dot11Radio0, changed state to resetPCI reset port 0
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:55:35.274: soap_pci_reconfig_radio: radio id 0
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:55:35.306: %LINEPROTO-5-UPDOWN: Line protocol on Interface Dot11Radio0, changed state to down
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:55:35.306: %CLEANAIR-6-STATE: Slot 0 down
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:55:38.570: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station 52df.e9ed.b92a Reason: Sending station has left the BSS
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:55:40.190: %LINK-6-UPDOWN: Interface Dot11Radio0, changed state to up
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:55:40.206: %DOT11-6-ASSOC: Interface Dot11Radio1, Station 52df.e9ed.b92a Associated KEY_MGMT[WPAv2 PSK]
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:55:41.190: %LINEPROTO-5-UPDOWN: Line protocol on Interface Dot11Radio0, changed state to up
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:55:53.726: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station e223.254e.90f1 Reason: Sending station has left the BSS
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:55:53.738: %DOT11-6-ASSOC: Interface Dot11Radio1, Station e223.254e.90f1 Associated KEY_MGMT[WPAv2 PSK]
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:55:59.910: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station 52df.e9ed.b92a Reason: Sending station has left the BSS
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:55:59.926: %DOT11-6-ASSOC: Interface Dot11Radio1, Station 52df.e9ed.b92a Associated KEY_MGMT[WPAv2 PSK]
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:56:04.382: %CLEANAIR-6-STATE: Slot 0 enabled
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:56:34.196: beacons 405F, time since jammed EF9, current F05, host_timestamp E53D2057
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:56:34.196: %DOT11-5-QBSS_INFO: Reset Radio Interface Dot11Radio0,QBSS Value: 100%,Reset can be expected due to harsh RF
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:56:34.216: %LINK-5-CHANGED: Interface Dot11Radio0, changed state to resetPCI reset port 0
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:56:35.524: soap_pci_reconfig_radio: radio id 0
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:56:35.556: %LINEPROTO-5-UPDOWN: Line protocol on Interface Dot11Radio0, changed state to down
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:56:35.556: %CLEANAIR-6-STATE: Slot 0 down
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:56:40.476: %LINK-6-UPDOWN: Interface Dot11Radio0, changed state to up
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:56:41.476: %LINEPROTO-5-UPDOWN: Line protocol on Interface Dot11Radio0, changed state to up
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:56:54.748: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station e223.254e.90f1 Reason: Sending station has left the BSS
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:56:54.764: %DOT11-6-ASSOC: Interface Dot11Radio1, Station e223.254e.90f1 Associated KEY_MGMT[WPAv2 PSK]
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:57:06.412: %CLEANAIR-6-STATE: Slot 0 enabled
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:57:34.826: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station e223.254e.90f1 Reason: Sending station has left the BSS
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:57:34.842: %DOT11-6-ASSOC: Interface Dot11Radio1, Station e223.254e.90f1 Associated KEY_MGMT[WPAv2 PSK]
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:57:39.478: beacons 40C0, time since jammed F3B, current F47, host_timestamp E92149A1
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:57:39.478: %DOT11-5-QBSS_INFO: Reset Radio Interface Dot11Radio0,QBSS Value: 100%,Reset can be expected due to harsh RF
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:57:39.498: %LINK-5-CHANGED: Interface Dot11Radio0, changed state to resetPCI reset port 0
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:57:40.806: soap_pci_reconfig_radio: radio id 0
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:57:40.838: %LINEPROTO-5-UPDOWN: Line protocol on Interface Dot11Radio0, changed state to down
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:57:40.838: %CLEANAIR-6-STATE: Slot 0 down
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:57:45.722: %LINK-6-UPDOWN: Interface Dot11Radio0, changed state to up
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:57:46.722: %LINEPROTO-5-UPDOWN: Line protocol on Interface Dot11Radio0, changed state to up
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:58:04.486: %DOT11-6-ASSOC: Interface Dot11Radio1, Station c8e2.6547.c070 Associated KEY_MGMT[WPAv2 PSK]
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:58:10.398: %CLEANAIR-6-STATE: Slot 0 enabled
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:58:21.435: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station c8e2.6547.c070 Reason: Sending station has left the BSS
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:58:21.451: %DOT11-6-ASSOC: Interface Dot11Radio1, Station c8e2.6547.c070 Reassociated KEY_MGMT[WPAv2 PSK]
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:58:35.855: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station e223.254e.90f1 Reason: Sending station has left the BSS
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:58:35.867: %DOT11-6-ASSOC: Interface Dot11Radio1, Station e223.254e.90f1 Associated KEY_MGMT[WPAv2 PSK]
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:59:06.903: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station c8e2.6547.c070 Reason: Sending station has left the BSS
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:59:06.919: %DOT11-6-ASSOC: Interface Dot11Radio1, Station c8e2.6547.c070 Associated KEY_MGMT[WPAv2 PSK]
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:59:36.821: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station e223.254e.90f1 Reason: Sending station has left the BSS
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 05:59:36.833: %DOT11-6-ASSOC: Interface Dot11Radio1, Station e223.254e.90f1 Associated KEY_MGMT[WPAv2 PSK]
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:00:07.813: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station 52df.e9ed.b92a Reason: Sending station has left the BSS
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:00:07.829: %DOT11-6-ASSOC: Interface Dot11Radio1, Station 52df.e9ed.b92a Associated KEY_MGMT[WPAv2 PSK]
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:00:37.855: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station e223.254e.90f1 Reason: Sending station has left the BSS
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:00:37.871: %DOT11-6-ASSOC: Interface Dot11Radio1, Station e223.254e.90f1 Associated KEY_MGMT[WPAv2 PSK]
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:01:09.259: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station 52df.e9ed.b92a Reason: Sending station has left the BSS
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:01:09.275: %DOT11-6-ASSOC: Interface Dot11Radio1, Station 52df.e9ed.b92a Associated KEY_MGMT[WPAv2 PSK]VLAN name 001 and number 0 is not a valid pair - failed.
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:01:35.873: %LWAPP-4-CLIENTEVENTLOG: OfficeExtend Localssid saved in AP flash
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:01:35.881: %DOT11-5-EXPECTED_RADIO_RESET: Restarting Radio interface Dot11Radio0 due to the reason code 27
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:01:35.881: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station 52df.e9ed.b92a
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:01:35.881: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station e223.254e.90f1
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:01:35.881: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station c8e2.6547.c070
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:01:35.881: %DOT11-5-EXPECTED_RADIO_RESET: Restarting Radio interface Dot11Radio1 due to the reason code 27
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:01:35.897: %LINK-6-UPDOWN: Interface Dot11Radio0, changed state to down
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:01:35.909: %LINK-5-CHANGED: Interface Dot11Radio0, changed state to reset
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:01:35.973: %LWAPP-4-CLIENTEVENTLOG: OfficeExtend Localssid saved in AP flash
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:01:36.897: %LINEPROTO-5-UPDOWN: Line protocol on Interface Dot11Radio0, changed state to down
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:01:36.937: %LINK-6-UPDOWN: Interface Dot11Radio0, changed state to up
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:01:37.937: %LINEPROTO-5-UPDOWN: Line protocol on Interface Dot11Radio0, changed state to up
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:01:38.945: %LINK-6-UPDOWN: Interface Dot11Radio1, changed state to down
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:01:38.953: %LINK-5-CHANGED: Interface Dot11Radio1, changed state to reset
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:01:39.945: %LINEPROTO-5-UPDOWN: Line protocol on Interface Dot11Radio1, changed state to down
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:01:39.989: %LINK-6-UPDOWN: Interface Dot11Radio1, changed state to up
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:01:40.989: %LINEPROTO-5-UPDOWN: Line protocol on Interface Dot11Radio1, changed state to up
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:01:42.653: %DOT11-6-ASSOC: Interface Dot11Radio1, Station e223.254e.90f1 Associated KEY_MGMT[WPAv2 PSK]VLAN name 001 and number 0 is not a valid pair - failed.
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:01:52.221: %LWAPP-4-CLIENTEVENTLOG: OfficeExtend Localssid saved in AP flash
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:01:52.225: %DOT11-5-EXPECTED_RADIO_RESET: Restarting Radio interface Dot11Radio0 due to the reason code 27
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:01:52.225: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station e223.254e.90f1
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:01:52.229: %DOT11-5-EXPECTED_RADIO_RESET: Restarting Radio interface Dot11Radio1 due to the reason code 27
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:01:52.245: %LINK-6-UPDOWN: Interface Dot11Radio0, changed state to down
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:01:52.253: %LINK-5-CHANGED: Interface Dot11Radio0, changed state to reset
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:01:52.309: %LWAPP-4-CLIENTEVENTLOG: OfficeExtend Localssid saved in AP flash
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:01:52.313: %DOT11-5-EXPECTED_RADIO_RESET: Restarting Radio interface Dot11Radio1 due to the reason code 27
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:01:53.245: %LINEPROTO-5-UPDOWN: Line protocol on Interface Dot11Radio0, changed state to down
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:01:53.281: %LINK-6-UPDOWN: Interface Dot11Radio0, changed state to up
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:01:53.289: %LINK-6-UPDOWN: Interface Dot11Radio1, changed state to down
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:01:53.297: %LINK-5-CHANGED: Interface Dot11Radio1, changed state to reset
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:01:54.281: %LINEPROTO-5-UPDOWN: Line protocol on Interface Dot11Radio0, changed state to up
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:01:54.289: %LINEPROTO-5-UPDOWN: Line protocol on Interface Dot11Radio1, changed state to down
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:01:54.333: %LINK-6-UPDOWN: Interface Dot11Radio1, changed state to up
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:01:55.333: %LINEPROTO-5-UPDOWN: Line protocol on Interface Dot11Radio1, changed state to up
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:02:00.013: %DOT11-6-ASSOC: Interface Dot11Radio1, Station e223.254e.90f1 Associated KEY_MGMT[WPAv2 PSK]
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:02:32.304: %DOT11-6-ASSOC: Interface Dot11Radio1, Station 52df.e9ed.b92a Associated KEY_MGMT[WPAv2 PSK]
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:03:00.950: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station e223.254e.90f1 Reason: Sending station has left the BSS
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:03:00.966: %DOT11-6-ASSOC: Interface Dot11Radio1, Station e223.254e.90f1 Associated KEY_MGMT[WPAv2 PSK]VLAN name 001 and number 0 is not a valid pair - failed.
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:03:24.482: %DOT11-5-EXPECTED_RADIO_RESET: Restarting Radio interface Dot11Radio0 due to the reason code 27
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:03:24.482: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station e223.254e.90f1
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:03:24.482: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station 52df.e9ed.b92a
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:03:24.482: %DOT11-5-EXPECTED_RADIO_RESET: Restarting Radio interface Dot11Radio1 due to the reason code 27
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:03:24.558: %LINK-6-UPDOWN: Interface Dot11Radio0, changed state to down
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:03:24.566: %LINK-5-CHANGED: Interface Dot11Radio0, changed state to reset
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:03:25.558: %LINEPROTO-5-UPDOWN: Line protocol on Interface Dot11Radio0, changed state to down
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:03:25.610: %LINK-6-UPDOWN: Interface Dot11Radio0, changed state to up
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:03:25.874: %LINK-6-UPDOWN: Interface Dot11Radio1, changed state to down
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:03:26.274: %LINK-5-CHANGED: Interface Dot11Radio1, changed state to reset
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:03:26.674: %LINEPROTO-5-UPDOWN: Line protocol on Interface Dot11Radio0, changed state to up
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:03:26.874: %LINEPROTO-5-UPDOWN: Line protocol on Interface Dot11Radio1, changed state to down
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:03:27.886: %LINK-6-UPDOWN: Interface Dot11Radio1, changed state to up
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:03:28.890: %LINEPROTO-5-UPDOWN: Line protocol on Interface Dot11Radio1, changed state to up
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:03:33.814: %DOT11-6-ASSOC: Interface Dot11Radio1, Station e223.254e.90f1 Associated KEY_MGMT[WPAv2 PSK]
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:03:51.752: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station e223.254e.90f1 Reason: Sending station has left the BSS
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:03:51.768: %DOT11-6-ASSOC: Interface Dot11Radio1, Station e223.254e.90f1 Associated KEY_MGMT[WPAv2 PSK]
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:04:00.684: %CDP_PD-4-POWER_OK: Full power - NEGOTIATED inline power source
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:04:04.456: %DOT11-6-ASSOC: Interface Dot11Radio1, Station 0280.99a5.5782 Associated KEY_MGMT[WPAv2 PSK]
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:04:14.552: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station 0280.99a5.5782 Reason: Sending station has left the BSS
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:04:14.736: %DOT11-6-ASSOC: Interface Dot11Radio1, Station 0280.99a5.5782 Reassociated KEY_MGMT[WPAv2 PSK]
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:04:25.576: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station e223.254e.90f1 Reason: Sending station has left the BSS
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:04:25.592: %DOT11-6-ASSOC: Interface Dot11Radio1, Station e223.254e.90f1 Associated KEY_MGMT[WPAv2 PSK]
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:05:24.466: %DOT11-6-ASSOC: Interface Dot11Radio1, Station 52df.e9ed.b92a Associated KEY_MGMT[WPAv2 PSK]
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:05:26.702: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station e223.254e.90f1 Reason: Sending station has left the BSS
-Sep 23 05:53:28 ap01.example.com: AP:abab.abab.abab: Sep 23 06:05:26.718: %DOT11-6-ASSOC: Interface Dot11Radio1, Station e223.254e.90f1 Associated KEY_MGMT[WPAv2 PSK]
-Mar 17 10:25:30 ap02.example.com: AP:acac.acac.acac: Mar 17 10:25:30 AP02 %SYS-5-RESTART: System restarted -- Cisco IOS Software, C1600 Software (AP3G2-K9W7-M), Version 15.3(3)JF7
-Mar 17 10:25:30 ap02.example.com: AP:acac.acac.acac: Mar 17 10:25:30 AP02 %SYS-6-LOGGINGHOST_STARTSTOP: Logging to host 192.168.1.100 port 514 started
-Mar 17 10:25:30 ap02.example.com: AP:acac.acac.acac: Mar 17 10:25:32 AP02 %LINK-3-UPDOWN: Interface Dot11Radio0, changed state to up
-Mar 17 10:25:30 ap02.example.com: AP:acac.acac.acac: Mar 17 10:25:32 AP02 %LINK-3-UPDOWN: Interface FastEthernet0, changed state to up
-Mar 17 10:25:30 ap02.example.com: AP:acac.acac.acac: Mar 17 10:27:15 AP02 %DOT11-6-ASSOC: Interface Dot11Radio0, Station 00:1A:2B:3C:4D:5E Associated
-Mar 17 10:25:30 ap02.example.com: AP:acac.acac.acac: Mar 17 10:27:16 AP02 %DOT11-6-AUTH: Interface Dot11Radio0, Station 00:1A:2B:3C:4D:5E Authentication successful
-Mar 17 10:25:30 ap02.example.com: AP:acac.acac.acac: Mar 17 10:27:16 AP02 %DOT11-6-DHCP_REQD: Station 00:1A:2B:3C:4D:5E DHCP request forwarded
-Mar 17 10:25:30 ap02.example.com: AP:acac.acac.acac: Mar 17 10:27:20 AP02 %DOT11-6-IP_LEASED: Station 00:1A:2B:3C:4D:5E assigned IP address 192.168.1.50
-Mar 17 10:25:30 ap02.example.com: AP:acac.acac.acac: Mar 17 10:32:45 AP02 %DOT11-6-DISASSOC: Interface Dot11Radio0, Station 00:1A:2B:3C:4D:5E Disassociated: Reason - Disconnected by STA
-Mar 17 10:25:30 ap02.example.com: AP:acac.acac.acac: Mar 17 10:32:46 AP02 %DOT11-6-DEAUTH: Interface Dot11Radio0, Station 00:1A:2B:3C:4D:5E Deauthenticated
-Mar 17 10:25:30 ap02.example.com: AP:acac.acac.acac: Mar 17 10:40:12 AP02 %DOT11-4-ROGUE_AP_DETECTED: Rogue AP detected, BSSID: 00:11:22:33:44:55 on channel 6
-Mar 17 10:25:30 ap02.example.com: AP:acac.acac.acac: Mar 17 10:40:15 AP02 %DOT11-3-ROGUE_AP_CLASSIFIED: Rogue AP classified as Unclassified - BSSID 00:11:22:33:44:55
-Mar 17 10:25:30 ap02.example.com: AP:acac.acac.acac: Mar 17 11:05:20 AP02 %LINK-5-CHANGED: Interface FastEthernet0, changed state to administratively down
-Mar 17 10:25:30 ap02.example.com: AP:acac.acac.acac: Mar 17 11:06:00 AP02 %DOT11-4-NO_BEACONS: Interface Dot11Radio0, No beacons received from controller for 10 seconds
-Mar 17 10:25:30 ap02.example.com: AP:acac.acac.acac: Mar 17 11:10:45 AP02 %POE-5-DETECT: Device connected to Interface FastEthernet0 using 15.4W power
-Mar 17 11:15:30 ap02.example.com: AP:acac.acac.acac: Mar 17 11:15:30 AP02 %DOT11-3-CHNL_CHANGE: Interface Dot11Radio0, Changing channel from 6 to 11 due to interference
-Mar 17 11:20:45 ap02.example.com: AP:acac.acac.acac: Mar 17 11:20:45 AP02 %DOT11-4-EXCESS_RETRANS: Interface Dot11Radio0, Excessive retransmissions detected on BSSID 00:AA:BB:CC:DD:EE
-Mar 17 11:20:45 ap02.example.com: AP:acac.acac.acac: Mar 17 11:20:45 AP02 %DOT11-4-EXCESS_RETRANS: Interface Dot11Radio0, Excessive retransmissions detected on BSSID 00:AA:BB:CC:DD:EE
-Mar 17 11:25:12 ap02.example.com: AP:acac.acac.acac: Mar 17 11:25:12 AP02 %CAPWAP-3-AP_DISCONNECT: Lightweight AP disconnected from controller 192.168.1.10 - Reason: Heartbeat timeout
-Mar 17 11:30:20 ap02.example.com: AP:acac.acac.acac: Mar 17 11:30:20 AP02 %SYS-3-CPU_HIGH: CPU utilization exceeded 90% for 60 seconds
-Mar 17 11:35:10 ap02.example.com: AP:acac.acac.acac: Mar 17 11:35:10 AP02 %FILESYS-3-FLASH_ERR: Flash file system corruption detected
-Mar 17 11:40:05 ap02.example.com: AP:acac.acac.acac: Mar 17 11:40:05 AP02 %DOT11-6-ROAM: Station 00:1A:2B:3C:4D:5E Roamed from AP02 to AP02
-Mar 17 11:50:22 ap02.example.com: AP:acac.acac.acac: Mar 17 11:50:22 AP02 %PWR-3-FAILURE: Power supply failure detected - Switching to backup power
-Mar 17 12:00:30 ap02.example.com: AP:acac.acac.acac: Mar 17 12:00:30 AP02 %SWITCH-3-BCAST_STORM: High broadcast traffic detected on VLAN 10, limiting broadcast rate
-Mar 17 12:10:15 ap02.example.com: AP:acac.acac.acac: Mar 17 12:10:15 AP02 %SYS-5-UPGRADE: AP firmware upgrade initiated from controller 192.168.1.10
-Mar 17 12:15:45 ap02.example.com: AP:acac.acac.acac: Mar 17 12:15:45 AP02 %DOT11-4-DFS_RADAR_DETECTED: Radar detected on channel 52, switching to channel 36
-Mar 17 12:20:10 ap02.example.com: AP:acac.acac.acac: Mar 17 12:20:10 AP02 %LICENSE-3-EXPIRED: AP license expired, disabling advanced features
-Mar 17 12:30:50 ap02.example.com: AP:acac.acac.acac: Mar 17 12:30:50 AP02 %DOT11-4-AUTH_RATE: Station 00:1A:2B:3C:4D:5E sent excessive authentication requests - Possible DoS attack
-Mar 17 12:35:30 ap02.example.com: AP:acac.acac.acac: Mar 17 12:35:30 AP02 %CAPWAP-6-AP_JOIN: AP successfully joined controller 192.168.1.20
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:53:28.431: beacons 3F7C, time since jammed E40, current E4C, host_timestamp DA2A73EE
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:53:28.431: %DOT11-5-QBSS_INFO: Reset Radio Interface Dot11Radio0,QBSS Value: 100%,Reset can be expected due to harsh RF
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:53:28.451: %LINK-5-CHANGED: Interface Dot11Radio0, changed state to resetPCI reset port 0
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:53:29.759: soap_pci_reconfig_radio: radio id 0
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:53:29.791: %LINEPROTO-5-UPDOWN: Line protocol on Interface Dot11Radio0, changed state to down
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:53:29.791: %CLEANAIR-6-STATE: Slot 0 down
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:53:34.695: %LINK-6-UPDOWN: Interface Dot11Radio0, changed state to up
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:53:35.695: %LINEPROTO-5-UPDOWN: Line protocol on Interface Dot11Radio0, changed state to up
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:53:51.735: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station e223.254e.90f1 Reason: Sending station has left the BSS
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:53:51.751: %DOT11-6-ASSOC: Interface Dot11Radio1, Station e223.254e.90f1 Associated KEY_MGMT[WPAv2 PSK]
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:53:59.379: %CLEANAIR-6-STATE: Slot 0 enabled
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:54:33.700: beacons 3FD3, time since jammed E81, current E8D, host_timestamp DE0E6E56
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:54:33.700: %DOT11-5-QBSS_INFO: Reset Radio Interface Dot11Radio0,QBSS Value: 100%,Reset can be expected due to harsh RF
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:54:33.720: %LINK-5-CHANGED: Interface Dot11Radio0, changed state to resetPCI reset port 0
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:54:35.028: soap_pci_reconfig_radio: radio id 0
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:54:35.060: %LINEPROTO-5-UPDOWN: Line protocol on Interface Dot11Radio0, changed state to down
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:54:35.060: %CLEANAIR-6-STATE: Slot 0 down
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:54:39.944: %LINK-6-UPDOWN: Interface Dot11Radio0, changed state to up
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:54:40.944: %LINEPROTO-5-UPDOWN: Line protocol on Interface Dot11Radio0, changed state to up
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:54:52.708: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station e223.254e.90f1 Reason: Sending station has left the BSS
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:54:52.724: %DOT11-6-ASSOC: Interface Dot11Radio1, Station e223.254e.90f1 Associated KEY_MGMT[WPAv2 PSK]
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:55:06.407: %CLEANAIR-6-STATE: Slot 0 enabled
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:55:33.946: beacons 4023, time since jammed EBD, current EC9, host_timestamp E1A5BF80
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:55:33.946: %DOT11-5-QBSS_INFO: Reset Radio Interface Dot11Radio0,QBSS Value: 100%,Reset can be expected due to harsh RF
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:55:33.966: %LINK-5-CHANGED: Interface Dot11Radio0, changed state to resetPCI reset port 0
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:55:35.274: soap_pci_reconfig_radio: radio id 0
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:55:35.306: %LINEPROTO-5-UPDOWN: Line protocol on Interface Dot11Radio0, changed state to down
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:55:35.306: %CLEANAIR-6-STATE: Slot 0 down
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:55:38.570: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station 52df.e9ed.b92a Reason: Sending station has left the BSS
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:55:40.190: %LINK-6-UPDOWN: Interface Dot11Radio0, changed state to up
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:55:40.206: %DOT11-6-ASSOC: Interface Dot11Radio1, Station 52df.e9ed.b92a Associated KEY_MGMT[WPAv2 PSK]
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:55:41.190: %LINEPROTO-5-UPDOWN: Line protocol on Interface Dot11Radio0, changed state to up
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:55:53.726: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station e223.254e.90f1 Reason: Sending station has left the BSS
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:55:53.738: %DOT11-6-ASSOC: Interface Dot11Radio1, Station e223.254e.90f1 Associated KEY_MGMT[WPAv2 PSK]
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:55:59.910: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station 52df.e9ed.b92a Reason: Sending station has left the BSS
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:55:59.926: %DOT11-6-ASSOC: Interface Dot11Radio1, Station 52df.e9ed.b92a Associated KEY_MGMT[WPAv2 PSK]
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:56:04.382: %CLEANAIR-6-STATE: Slot 0 enabled
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:56:34.196: beacons 405F, time since jammed EF9, current F05, host_timestamp E53D2057
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:56:34.196: %DOT11-5-QBSS_INFO: Reset Radio Interface Dot11Radio0,QBSS Value: 100%,Reset can be expected due to harsh RF
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:56:34.216: %LINK-5-CHANGED: Interface Dot11Radio0, changed state to resetPCI reset port 0
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:56:35.524: soap_pci_reconfig_radio: radio id 0
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:56:35.556: %LINEPROTO-5-UPDOWN: Line protocol on Interface Dot11Radio0, changed state to down
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:56:35.556: %CLEANAIR-6-STATE: Slot 0 down
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:56:40.476: %LINK-6-UPDOWN: Interface Dot11Radio0, changed state to up
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:56:41.476: %LINEPROTO-5-UPDOWN: Line protocol on Interface Dot11Radio0, changed state to up
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:56:54.748: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station e223.254e.90f1 Reason: Sending station has left the BSS
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:56:54.764: %DOT11-6-ASSOC: Interface Dot11Radio1, Station e223.254e.90f1 Associated KEY_MGMT[WPAv2 PSK]
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:57:06.412: %CLEANAIR-6-STATE: Slot 0 enabled
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:57:34.826: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station e223.254e.90f1 Reason: Sending station has left the BSS
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:57:34.842: %DOT11-6-ASSOC: Interface Dot11Radio1, Station e223.254e.90f1 Associated KEY_MGMT[WPAv2 PSK]
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:57:39.478: beacons 40C0, time since jammed F3B, current F47, host_timestamp E92149A1
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:57:39.478: %DOT11-5-QBSS_INFO: Reset Radio Interface Dot11Radio0,QBSS Value: 100%,Reset can be expected due to harsh RF
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:57:39.498: %LINK-5-CHANGED: Interface Dot11Radio0, changed state to resetPCI reset port 0
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:57:40.806: soap_pci_reconfig_radio: radio id 0
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:57:40.838: %LINEPROTO-5-UPDOWN: Line protocol on Interface Dot11Radio0, changed state to down
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:57:40.838: %CLEANAIR-6-STATE: Slot 0 down
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:57:45.722: %LINK-6-UPDOWN: Interface Dot11Radio0, changed state to up
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:57:46.722: %LINEPROTO-5-UPDOWN: Line protocol on Interface Dot11Radio0, changed state to up
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:58:04.486: %DOT11-6-ASSOC: Interface Dot11Radio1, Station c8e2.6547.c070 Associated KEY_MGMT[WPAv2 PSK]
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:58:10.398: %CLEANAIR-6-STATE: Slot 0 enabled
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:58:21.435: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station c8e2.6547.c070 Reason: Sending station has left the BSS
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:58:21.451: %DOT11-6-ASSOC: Interface Dot11Radio1, Station c8e2.6547.c070 Reassociated KEY_MGMT[WPAv2 PSK]
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:58:35.855: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station e223.254e.90f1 Reason: Sending station has left the BSS
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:58:35.867: %DOT11-6-ASSOC: Interface Dot11Radio1, Station e223.254e.90f1 Associated KEY_MGMT[WPAv2 PSK]
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:59:06.903: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station c8e2.6547.c070 Reason: Sending station has left the BSS
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:59:06.919: %DOT11-6-ASSOC: Interface Dot11Radio1, Station c8e2.6547.c070 Associated KEY_MGMT[WPAv2 PSK]
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:59:36.821: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station e223.254e.90f1 Reason: Sending station has left the BSS
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 05:59:36.833: %DOT11-6-ASSOC: Interface Dot11Radio1, Station e223.254e.90f1 Associated KEY_MGMT[WPAv2 PSK]
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:00:07.813: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station 52df.e9ed.b92a Reason: Sending station has left the BSS
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:00:07.829: %DOT11-6-ASSOC: Interface Dot11Radio1, Station 52df.e9ed.b92a Associated KEY_MGMT[WPAv2 PSK]
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:00:37.855: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station e223.254e.90f1 Reason: Sending station has left the BSS
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:00:37.871: %DOT11-6-ASSOC: Interface Dot11Radio1, Station e223.254e.90f1 Associated KEY_MGMT[WPAv2 PSK]
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:01:09.259: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station 52df.e9ed.b92a Reason: Sending station has left the BSS
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:01:09.275: %DOT11-6-ASSOC: Interface Dot11Radio1, Station 52df.e9ed.b92a Associated KEY_MGMT[WPAv2 PSK]VLAN name 001 and number 0 is not a valid pair - failed.
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:01:35.873: %LWAPP-4-CLIENTEVENTLOG: OfficeExtend Localssid saved in AP flash
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:01:35.881: %DOT11-5-EXPECTED_RADIO_RESET: Restarting Radio interface Dot11Radio0 due to the reason code 27
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:01:35.881: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station 52df.e9ed.b92a
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:01:35.881: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station e223.254e.90f1
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:01:35.881: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station c8e2.6547.c070
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:01:35.881: %DOT11-5-EXPECTED_RADIO_RESET: Restarting Radio interface Dot11Radio1 due to the reason code 27
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:01:35.897: %LINK-6-UPDOWN: Interface Dot11Radio0, changed state to down
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:01:35.909: %LINK-5-CHANGED: Interface Dot11Radio0, changed state to reset
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:01:35.973: %LWAPP-4-CLIENTEVENTLOG: OfficeExtend Localssid saved in AP flash
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:01:36.897: %LINEPROTO-5-UPDOWN: Line protocol on Interface Dot11Radio0, changed state to down
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:01:36.937: %LINK-6-UPDOWN: Interface Dot11Radio0, changed state to up
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:01:37.937: %LINEPROTO-5-UPDOWN: Line protocol on Interface Dot11Radio0, changed state to up
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:01:38.945: %LINK-6-UPDOWN: Interface Dot11Radio1, changed state to down
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:01:38.953: %LINK-5-CHANGED: Interface Dot11Radio1, changed state to reset
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:01:39.945: %LINEPROTO-5-UPDOWN: Line protocol on Interface Dot11Radio1, changed state to down
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:01:39.989: %LINK-6-UPDOWN: Interface Dot11Radio1, changed state to up
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:01:40.989: %LINEPROTO-5-UPDOWN: Line protocol on Interface Dot11Radio1, changed state to up
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:01:42.653: %DOT11-6-ASSOC: Interface Dot11Radio1, Station e223.254e.90f1 Associated KEY_MGMT[WPAv2 PSK]VLAN name 001 and number 0 is not a valid pair - failed.
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:01:52.221: %LWAPP-4-CLIENTEVENTLOG: OfficeExtend Localssid saved in AP flash
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:01:52.225: %DOT11-5-EXPECTED_RADIO_RESET: Restarting Radio interface Dot11Radio0 due to the reason code 27
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:01:52.225: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station e223.254e.90f1
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:01:52.229: %DOT11-5-EXPECTED_RADIO_RESET: Restarting Radio interface Dot11Radio1 due to the reason code 27
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:01:52.245: %LINK-6-UPDOWN: Interface Dot11Radio0, changed state to down
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:01:52.253: %LINK-5-CHANGED: Interface Dot11Radio0, changed state to reset
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:01:52.309: %LWAPP-4-CLIENTEVENTLOG: OfficeExtend Localssid saved in AP flash
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:01:52.313: %DOT11-5-EXPECTED_RADIO_RESET: Restarting Radio interface Dot11Radio1 due to the reason code 27
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:01:53.245: %LINEPROTO-5-UPDOWN: Line protocol on Interface Dot11Radio0, changed state to down
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:01:53.281: %LINK-6-UPDOWN: Interface Dot11Radio0, changed state to up
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:01:53.289: %LINK-6-UPDOWN: Interface Dot11Radio1, changed state to down
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:01:53.297: %LINK-5-CHANGED: Interface Dot11Radio1, changed state to reset
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:01:54.281: %LINEPROTO-5-UPDOWN: Line protocol on Interface Dot11Radio0, changed state to up
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:01:54.289: %LINEPROTO-5-UPDOWN: Line protocol on Interface Dot11Radio1, changed state to down
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:01:54.333: %LINK-6-UPDOWN: Interface Dot11Radio1, changed state to up
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:01:55.333: %LINEPROTO-5-UPDOWN: Line protocol on Interface Dot11Radio1, changed state to up
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:02:00.013: %DOT11-6-ASSOC: Interface Dot11Radio1, Station e223.254e.90f1 Associated KEY_MGMT[WPAv2 PSK]
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:02:32.304: %DOT11-6-ASSOC: Interface Dot11Radio1, Station 52df.e9ed.b92a Associated KEY_MGMT[WPAv2 PSK]
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:03:00.950: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station e223.254e.90f1 Reason: Sending station has left the BSS
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:03:00.966: %DOT11-6-ASSOC: Interface Dot11Radio1, Station e223.254e.90f1 Associated KEY_MGMT[WPAv2 PSK]VLAN name 001 and number 0 is not a valid pair - failed.
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:03:24.482: %DOT11-5-EXPECTED_RADIO_RESET: Restarting Radio interface Dot11Radio0 due to the reason code 27
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:03:24.482: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station e223.254e.90f1
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:03:24.482: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station 52df.e9ed.b92a
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:03:24.482: %DOT11-5-EXPECTED_RADIO_RESET: Restarting Radio interface Dot11Radio1 due to the reason code 27
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:03:24.558: %LINK-6-UPDOWN: Interface Dot11Radio0, changed state to down
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:03:24.566: %LINK-5-CHANGED: Interface Dot11Radio0, changed state to reset
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:03:25.558: %LINEPROTO-5-UPDOWN: Line protocol on Interface Dot11Radio0, changed state to down
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:03:25.610: %LINK-6-UPDOWN: Interface Dot11Radio0, changed state to up
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:03:25.874: %LINK-6-UPDOWN: Interface Dot11Radio1, changed state to down
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:03:26.274: %LINK-5-CHANGED: Interface Dot11Radio1, changed state to reset
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:03:26.674: %LINEPROTO-5-UPDOWN: Line protocol on Interface Dot11Radio0, changed state to up
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:03:26.874: %LINEPROTO-5-UPDOWN: Line protocol on Interface Dot11Radio1, changed state to down
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:03:27.886: %LINK-6-UPDOWN: Interface Dot11Radio1, changed state to up
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:03:28.890: %LINEPROTO-5-UPDOWN: Line protocol on Interface Dot11Radio1, changed state to up
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:03:33.814: %DOT11-6-ASSOC: Interface Dot11Radio1, Station e223.254e.90f1 Associated KEY_MGMT[WPAv2 PSK]
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:03:51.752: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station e223.254e.90f1 Reason: Sending station has left the BSS
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:03:51.768: %DOT11-6-ASSOC: Interface Dot11Radio1, Station e223.254e.90f1 Associated KEY_MGMT[WPAv2 PSK]
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:04:00.684: %CDP_PD-4-POWER_OK: Full power - NEGOTIATED inline power source
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:04:04.456: %DOT11-6-ASSOC: Interface Dot11Radio1, Station 0280.99a5.5782 Associated KEY_MGMT[WPAv2 PSK]
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:04:14.552: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station 0280.99a5.5782 Reason: Sending station has left the BSS
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:04:14.736: %DOT11-6-ASSOC: Interface Dot11Radio1, Station 0280.99a5.5782 Reassociated KEY_MGMT[WPAv2 PSK]
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:04:25.576: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station e223.254e.90f1 Reason: Sending station has left the BSS
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:04:25.592: %DOT11-6-ASSOC: Interface Dot11Radio1, Station e223.254e.90f1 Associated KEY_MGMT[WPAv2 PSK]
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:05:24.466: %DOT11-6-ASSOC: Interface Dot11Radio1, Station 52df.e9ed.b92a Associated KEY_MGMT[WPAv2 PSK]
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:05:26.702: %DOT11-6-DISASSOC: Interface Dot11Radio1, Deauthenticating Station e223.254e.90f1 Reason: Sending station has left the BSS
+Sep 23 05:53:28 AAAAAAAA: AP:abab.abab.abab: Sep 23 06:05:26.718: %DOT11-6-ASSOC: Interface Dot11Radio1, Station e223.254e.90f1 Associated KEY_MGMT[WPAv2 PSK]
+Mar 17 10:25:30 AAAAAAAA: AP:acac.acac.acac: Mar 17 10:25:30 AP02 %SYS-5-RESTART: System restarted -- Cisco IOS Software, C1600 Software (AP3G2-K9W7-M), Version 15.3(3)JF7
+Mar 17 10:25:30 AAAAAAAA: AP:acac.acac.acac: Mar 17 10:25:30 AP02 %SYS-6-LOGGINGHOST_STARTSTOP: Logging to host 192.168.1.100 port 514 started
+Mar 17 10:25:30 AAAAAAAA: AP:acac.acac.acac: Mar 17 10:25:32 AP02 %LINK-3-UPDOWN: Interface Dot11Radio0, changed state to up
+Mar 17 10:25:30 AAAAAAAA: AP:acac.acac.acac: Mar 17 10:25:32 AP02 %LINK-3-UPDOWN: Interface FastEthernet0, changed state to up
+Mar 17 10:25:30 AAAAAAAA: AP:acac.acac.acac: Mar 17 10:27:15 AP02 %DOT11-6-ASSOC: Interface Dot11Radio0, Station 00:1A:2B:3C:4D:5E Associated
+Mar 17 10:25:30 AAAAAAAA: AP:acac.acac.acac: Mar 17 10:27:16 AP02 %DOT11-6-AUTH: Interface Dot11Radio0, Station 00:1A:2B:3C:4D:5E Authentication successful
+Mar 17 10:25:30 AAAAAAAA: AP:acac.acac.acac: Mar 17 10:27:16 AP02 %DOT11-6-DHCP_REQD: Station 00:1A:2B:3C:4D:5E DHCP request forwarded
+Mar 17 10:25:30 AAAAAAAA: AP:acac.acac.acac: Mar 17 10:27:20 AP02 %DOT11-6-IP_LEASED: Station 00:1A:2B:3C:4D:5E assigned IP address 192.168.1.50
+Mar 17 10:25:30 AAAAAAAA: AP:acac.acac.acac: Mar 17 10:32:45 AP02 %DOT11-6-DISASSOC: Interface Dot11Radio0, Station 00:1A:2B:3C:4D:5E Disassociated: Reason - Disconnected by STA
+Mar 17 10:25:30 AAAAAAAA: AP:acac.acac.acac: Mar 17 10:32:46 AP02 %DOT11-6-DEAUTH: Interface Dot11Radio0, Station 00:1A:2B:3C:4D:5E Deauthenticated
+Mar 17 10:25:30 AAAAAAAA: AP:acac.acac.acac: Mar 17 10:40:12 AP02 %DOT11-4-ROGUE_AP_DETECTED: Rogue AP detected, BSSID: 00:11:22:33:44:55 on channel 6
+Mar 17 10:25:30 AAAAAAAA: AP:acac.acac.acac: Mar 17 10:40:15 AP02 %DOT11-3-ROGUE_AP_CLASSIFIED: Rogue AP classified as Unclassified - BSSID 00:11:22:33:44:55
+Mar 17 10:25:30 AAAAAAAA: AP:acac.acac.acac: Mar 17 11:05:20 AP02 %LINK-5-CHANGED: Interface FastEthernet0, changed state to administratively down
+Mar 17 10:25:30 AAAAAAAA: AP:acac.acac.acac: Mar 17 11:06:00 AP02 %DOT11-4-NO_BEACONS: Interface Dot11Radio0, No beacons received from controller for 10 seconds
+Mar 17 10:25:30 AAAAAAAA: AP:acac.acac.acac: Mar 17 11:10:45 AP02 %POE-5-DETECT: Device connected to Interface FastEthernet0 using 15.4W power
+Mar 17 11:15:30 AAAAAAAA: AP:acac.acac.acac: Mar 17 11:15:30 AP02 %DOT11-3-CHNL_CHANGE: Interface Dot11Radio0, Changing channel from 6 to 11 due to interference
+Mar 17 11:20:45 AAAAAAAA: AP:acac.acac.acac: Mar 17 11:20:45 AP02 %DOT11-4-EXCESS_RETRANS: Interface Dot11Radio0, Excessive retransmissions detected on BSSID 00:AA:BB:CC:DD:EE
+Mar 17 11:20:45 AAAAAAAA: AP:acac.acac.acac: Mar 17 11:20:45 AP02 %DOT11-4-EXCESS_RETRANS: Interface Dot11Radio0, Excessive retransmissions detected on BSSID 00:AA:BB:CC:DD:EE
+Mar 17 11:25:12 AAAAAAAA: AP:acac.acac.acac: Mar 17 11:25:12 AP02 %CAPWAP-3-AP_DISCONNECT: Lightweight AP disconnected from controller 192.168.1.10 - Reason: Heartbeat timeout
+Mar 17 11:30:20 AAAAAAAA: AP:acac.acac.acac: Mar 17 11:30:20 AP02 %SYS-3-CPU_HIGH: CPU utilization exceeded 90% for 60 seconds
+Mar 17 11:35:10 AAAAAAAA: AP:acac.acac.acac: Mar 17 11:35:10 AP02 %FILESYS-3-FLASH_ERR: Flash file system corruption detected
+Mar 17 11:40:05 AAAAAAAA: AP:acac.acac.acac: Mar 17 11:40:05 AP02 %DOT11-6-ROAM: Station 00:1A:2B:3C:4D:5E Roamed from AP02 to AP02
+Mar 17 11:50:22 AAAAAAAA: AP:acac.acac.acac: Mar 17 11:50:22 AP02 %PWR-3-FAILURE: Power supply failure detected - Switching to backup power
+Mar 17 12:00:30 AAAAAAAA: AP:acac.acac.acac: Mar 17 12:00:30 AP02 %SWITCH-3-BCAST_STORM: High broadcast traffic detected on VLAN 10, limiting broadcast rate
+Mar 17 12:10:15 AAAAAAAA: AP:acac.acac.acac: Mar 17 12:10:15 AP02 %SYS-5-UPGRADE: AP firmware upgrade initiated from controller 192.168.1.10
+Mar 17 12:15:45 AAAAAAAA: AP:acac.acac.acac: Mar 17 12:15:45 AP02 %DOT11-4-DFS_RADAR_DETECTED: Radar detected on channel 52, switching to channel 36
+Mar 17 12:20:10 AAAAAAAA: AP:acac.acac.acac: Mar 17 12:20:10 AP02 %LICENSE-3-EXPIRED: AP license expired, disabling advanced features
+Mar 17 12:30:50 AAAAAAAA: AP:acac.acac.acac: Mar 17 12:30:50 AP02 %DOT11-4-AUTH_RATE: Station 00:1A:2B:3C:4D:5E sent excessive authentication requests - Possible DoS attack
+Mar 17 12:35:30 AAAAAAAA: AP:acac.acac.acac: Mar 17 12:35:30 AP02 %CAPWAP-6-AP_JOIN: AP successfully joined controller 192.168.1.20
