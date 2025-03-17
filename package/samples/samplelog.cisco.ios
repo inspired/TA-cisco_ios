@@ -274,3 +274,17 @@ Mar 17 10:25:30 ap02.example.com: AP:acac.acac.acac: Mar 17 10:40:15 AP02 %DOT11
 Mar 17 10:25:30 ap02.example.com: AP:acac.acac.acac: Mar 17 11:05:20 AP02 %LINK-5-CHANGED: Interface FastEthernet0, changed state to administratively down
 Mar 17 10:25:30 ap02.example.com: AP:acac.acac.acac: Mar 17 11:06:00 AP02 %DOT11-4-NO_BEACONS: Interface Dot11Radio0, No beacons received from controller for 10 seconds
 Mar 17 10:25:30 ap02.example.com: AP:acac.acac.acac: Mar 17 11:10:45 AP02 %POE-5-DETECT: Device connected to Interface FastEthernet0 using 15.4W power
+Mar 17 11:15:30 ap02.example.com: AP:acac.acac.acac: Mar 17 11:15:30 AP02 %DOT11-3-CHNL_CHANGE: Interface Dot11Radio0, Changing channel from 6 to 11 due to interference
+Mar 17 11:20:45 ap02.example.com: AP:acac.acac.acac: Mar 17 11:20:45 AP02 %DOT11-4-EXCESS_RETRANS: Interface Dot11Radio0, Excessive retransmissions detected on BSSID 00:AA:BB:CC:DD:EE
+Mar 17 11:20:45 ap02.example.com: AP:acac.acac.acac: Mar 17 11:20:45 AP02 %DOT11-4-EXCESS_RETRANS: Interface Dot11Radio0, Excessive retransmissions detected on BSSID 00:AA:BB:CC:DD:EE
+Mar 17 11:25:12 ap02.example.com: AP:acac.acac.acac: Mar 17 11:25:12 AP02 %CAPWAP-3-AP_DISCONNECT: Lightweight AP disconnected from controller 192.168.1.10 - Reason: Heartbeat timeout
+Mar 17 11:30:20 ap02.example.com: AP:acac.acac.acac: Mar 17 11:30:20 AP02 %SYS-3-CPU_HIGH: CPU utilization exceeded 90% for 60 seconds
+Mar 17 11:35:10 ap02.example.com: AP:acac.acac.acac: Mar 17 11:35:10 AP02 %FILESYS-3-FLASH_ERR: Flash file system corruption detected
+Mar 17 11:40:05 ap02.example.com: AP:acac.acac.acac: Mar 17 11:40:05 AP02 %DOT11-6-ROAM: Station 00:1A:2B:3C:4D:5E Roamed from AP02 to AP02
+Mar 17 11:50:22 ap02.example.com: AP:acac.acac.acac: Mar 17 11:50:22 AP02 %PWR-3-FAILURE: Power supply failure detected - Switching to backup power
+Mar 17 12:00:30 ap02.example.com: AP:acac.acac.acac: Mar 17 12:00:30 AP02 %SWITCH-3-BCAST_STORM: High broadcast traffic detected on VLAN 10, limiting broadcast rate
+Mar 17 12:10:15 ap02.example.com: AP:acac.acac.acac: Mar 17 12:10:15 AP02 %SYS-5-UPGRADE: AP firmware upgrade initiated from controller 192.168.1.10
+Mar 17 12:15:45 ap02.example.com: AP:acac.acac.acac: Mar 17 12:15:45 AP02 %DOT11-4-DFS_RADAR_DETECTED: Radar detected on channel 52, switching to channel 36
+Mar 17 12:20:10 ap02.example.com: AP:acac.acac.acac: Mar 17 12:20:10 AP02 %LICENSE-3-EXPIRED: AP license expired, disabling advanced features
+Mar 17 12:30:50 ap02.example.com: AP:acac.acac.acac: Mar 17 12:30:50 AP02 %DOT11-4-AUTH_RATE: Station 00:1A:2B:3C:4D:5E sent excessive authentication requests - Possible DoS attack
+Mar 17 12:35:30 ap02.example.com: AP:acac.acac.acac: Mar 17 12:35:30 AP02 %CAPWAP-6-AP_JOIN: AP successfully joined controller 192.168.1.20
