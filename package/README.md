@@ -32,7 +32,7 @@
 
 | Author | Mikael Bjerkeland |
 | --- | --- |
-| App Version | 2.7.4 |
+| App Version | 2.7.6 |
 | Vendor Products | Cisco Catalyst, ASR, ISR, Nexus, CRS and other IOS based switches, Wireless LAN Controller, ACI |
 | Has index-time operations | True |
 | Create an index | False |
@@ -167,11 +167,11 @@ Follow the same steps as *Install to search head*.
 #### Configure Cisco Networks Add-on
 
 1. Install in $SPLUNK_HOME/etc/apps/TA-cisco_ios
-
-2. Create a UDP input on one of your Splunk servers or a forwarder with sourcetype set to *syslog* or *cisco:ios*. A regex match will be performed to rewrite the events to the cisco:ios sourcetype.
-3. Configure your Cisco devices to send their syslogs to the UDP input created in step 2 with logging level informational.
-
-4. Restart Splunk
+2. Configure inputs:
+    1. Option 1: Configure [Splunk Connect 4 Syslog](https://splunkbase.splunk.com/app/4740) to receive syslog data and forward this data to Splunk.
+    2. Option 2: Create a UDP input on one of your Splunk servers or a forwarder with sourcetype set to *syslog* or *cisco:ios*. A regex match will be performed to rewrite the events to the cisco:ios sourcetype.
+4. Configure your Cisco devices to send their syslogs to the UDP input created in step 2 with logging level informational.
+5. Restart Splunk
 
 ## USER GUIDE
 
