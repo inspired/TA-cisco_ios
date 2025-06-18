@@ -50,9 +50,9 @@ No scripts or binaries are included.
 
 Version 2.7.6 of the Cisco Networks Add-on is compatible with:
 
-| Splunk Enterprise/Cloud versions | 9.0+, 8.2, 8.1 |
+| Splunk Enterprise/Cloud versions | 10.0, 9.0+, 8.2, 8.1 |
 | --- | --- |
-| CIM | 4.* |
+| CIM | 6.*, 4.* |
 | Platforms | Platform independent |
 | Vendor Products | Cisco Catalyst, ASR, ISR, Nexus, CRS and other IOS based switches, Wireless LAN Controller, ACI |
 | Lookup file changes | Added cisco_ios_aci_fault_codes, Removed cisco_ios_apptype |
@@ -70,6 +70,7 @@ Cisco Networks Add-on includes the following new features:
 Version 2.7.6 of the Cisco Networks Add-on fixes the following issues:
 
 - None known
+- 
 ##### Known issues
 
 Version 2.7.6 of the Cisco Networks Add-on has the following known issues:
