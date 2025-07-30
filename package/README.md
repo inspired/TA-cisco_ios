@@ -48,7 +48,7 @@ No scripts or binaries are included.
 
 ##### About this release
 
-Version 2.7.6 of the Cisco Networks Add-on is compatible with:
+Version 2.7.7 of the Cisco Networks Add-on is compatible with:
 
 | Splunk Enterprise/Cloud versions | 10.0, 9.0+, 8.2, 8.1 |
 | --- | --- |
@@ -61,25 +61,23 @@ Version 2.7.6 of the Cisco Networks Add-on is compatible with:
 
 Cisco Networks Add-on includes the following new features:
 
-- Added extractions for some of the %SESSION_MGR messages
-- Added GigabitEthernet,FastEthernet and Ethernet to the interface name lookup
-- Added samples of %SESSION_MGR for eventgen
+- None
 
 ##### Fixed issues
 
-Version 2.7.6 of the Cisco Networks Add-on fixes the following issues:
+Version 2.7.7 of the Cisco Networks Add-on fixes the following issues:
 
-- None known
-- 
+- TRANSFORM for syslog sourcetype 3 orders of magnitude faster. Thank you Martin Müller.
+
 ##### Known issues
 
-Version 2.7.6 of the Cisco Networks Add-on has the following known issues:
+Version 2.7.7 of the Cisco Networks Add-on has the following known issues:
 
 - None known
 
 ##### Third-party software attributions
 
-Version 2.7.6 of the Cisco Networks Add-on incorporates the following third-party software or libraries.
+Version 2.7.7 of the Cisco Networks Add-on incorporates the following third-party software or libraries.
 
 - Icon by Yudha Agung Pribadi (https://www.iconfinder.com/iconsets/networking-icons-1)
 
