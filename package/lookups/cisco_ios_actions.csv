@@ -1,6 +1,8 @@
 vendor_action,action,type,change_type
 permitted,allowed,,
 denied,blocked,,
+DENY,blocked,,
+PERMIT,allowed,,
 Start,allowed,,
 Stop,allowed,,
 Dropping,dropped,,
