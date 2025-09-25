@@ -32,7 +32,7 @@
 
 | Author | Mikael Bjerkeland |
 | --- | --- |
-| App Version | 2.7.8 |
+| App Version | 2.7.9 |
 | Vendor Products | Cisco Catalyst, ASR, ISR, Nexus, CRS and other IOS based switches, Wireless LAN Controller, ACI |
 | Has index-time operations | True |
 | Create an index | False |
@@ -48,7 +48,7 @@ No scripts or binaries are included.
 
 ##### About this release
 
-Version 2.7.8 of the Cisco Networks Add-on is compatible with:
+Version 2.7.9 of the Cisco Networks Add-on is compatible with:
 
 | Splunk Enterprise/Cloud versions | 10.0, 9.0+, 8.2, 8.1 |
 | --- | --- |
@@ -65,19 +65,20 @@ Cisco Networks Add-on includes the following new features:
 
 ##### Fixed issues
 
-Version 2.7.8 of the Cisco Networks Add-on fixes the following issues:
+Version 2.7.9 of the Cisco Networks Add-on fixes the following issues:
 
+- ACI ACL logging extractions added
 - TRANSFORM for syslog sourcetype 3 orders of magnitude faster. Thank you Martin Müller.
 
 ##### Known issues
 
-Version 2.7.8 of the Cisco Networks Add-on has the following known issues:
+Version 2.7.9 of the Cisco Networks Add-on has the following known issues:
 
 - None known
 
 ##### Third-party software attributions
 
-Version 2.7.8 of the Cisco Networks Add-on incorporates the following third-party software or libraries.
+Version 2.7.9 of the Cisco Networks Add-on incorporates the following third-party software or libraries.
 
 - Icon by Yudha Agung Pribadi (https://www.iconfinder.com/iconsets/networking-icons-1)
 
