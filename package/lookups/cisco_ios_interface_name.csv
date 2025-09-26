@@ -5,6 +5,7 @@ Gi,GigabitEthernet
 GigabitEthernet,GigabitEthernet
 Tw,TwoGigabitEthernet
 Te,TenGigabitEthernet
+TenGigE,TenGigabitEthernet
 Twe,TwentyFiveGigE
 Fo,FortyGigabitEthernet
 Hu,HundredGigE
@@ -13,6 +14,7 @@ Et,Ethernet
 Eth,Ethernet
 Ethernet,Ethernet
 Vl,Vlan
+vlan,Vlan
 FD,Fddi
 PortCh,Port-Channel
 Po,Port-Channel
